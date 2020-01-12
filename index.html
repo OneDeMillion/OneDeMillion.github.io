@@ -2,24 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 viewport-fit=cover"/>
     <title>Kim DeMille's Assignment Portal</title>
     <meta name="description" content="Kim DeMille's CIT 230 Assignment Portal for Winter Semester 2020 at BYU-Idaho Online">
     <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
     <header>
+        <div id="profileImg">
+            <img id="headshot" src="images/rszheadshot.jpg" class="headshot" alt="Headshot of Kim DeMille">
+        </div>
+
         <h1>Kim DeMille</h1>
-        <img src="#" class="headshot" alt="Photo of Kim DeMille">
 
     </header>
     <main>
         <h2>CIT 230: Assignment Portal</h2>
         <ul>
-            <li>Lesson 2: Assignment Link</li>
-            <li>Lesson 3: Assignment Link</li>
-            <li>Lesson 4: Link | Link</li>
+            <li>Lesson 2: <a href="#">Assignment Link</a></li>
+            <li>Lesson 3: <a href="#">Assignment Link</a></li>
+            <li>Lesson 4: <a href="#">Link</a> | <a href="#">Link</a></li>
         </ul>
 
     </main>
+<footer>
+    &copy <span id="currentYear"></span>| Kim DeMille | Wisconsin | <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a>
+    <p>Last updated: <span id="lastModified"></span></p>
+</footer>
+<script src="js/getYear.js"></script>
 </body>
+</html>

@@ -1,26 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
 body {
     font-size: 18px;
     line-height: 1.5;
+    font-family: 'Raleway', sans-serif;
 }
 
-header, nav, main, footer {
+header,
+main,
+footer {
     margin: 1.25rem auto;
     max-width: 760px;
 }
 
-header, footer {
-    background-color: navy;
+header,
+footer {
+    background-color: #a6b0dd;
     color: #fff;
+    border-radius: 10px;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
     text-align: center;
 }
 
 header {
     padding: 1.5rem;
+    height: 100px;
+    width: auto;
+    display: float;
 }
 
-p img {
+header h1 {
+    font-size: 35px;
+    text-align: center;
+}
+
+#profileImg {
     float: right;
-    margin: 10px;
-    border: 1px solid #000;
+    margin: 0px;
+    right: 20px;
+    width: 150px;
+    border-radius: 10px;
 }
 
+#headshot {
+    border-radius: 10px;
+    box-shadow: 8px 8px 14px 8px #777777;
+}
