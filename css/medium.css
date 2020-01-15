@@ -1,0 +1,28 @@
+@media only screen and (min-width: 32.5em){
+
+    header h1 {
+        font-size: 35px;
+        text-align: center;
+    }
+}
+
+header,
+footer {
+  
+    border-radius: 10px;
+  
+}
+
+#profileImg {
+    float: right;
+    margin: 0px;
+    right: 20px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+
+#headshot {
+    border-radius: 10px;
+    box-shadow: 8px 8px 14px 8px #777777;
+}

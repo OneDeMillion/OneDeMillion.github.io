@@ -17,7 +17,6 @@ header,
 footer {
     background-color: #a6b0dd;
     color: #fff;
-    border-radius: 10px;
     padding: 10px;
     text-align: center;
 }
@@ -26,7 +25,7 @@ header {
     padding: 1.5rem;
     height: 100px;
     width: auto;
-    display: float;
+    
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -34,21 +33,18 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 header h1 {
-    font-size: 35px;
+    font-size: 2.5rem;
     text-align: center;
 }
 
-#profileImg {
-    float: right;
-    margin: 0px;
-    right: 20px;
-    width: 150px;
-    border-radius: 10px;
+h2 {
+    font-size: 1.5rem;
 }
 
-#headshot {
-    border-radius: 10px;
-    box-shadow: 8px 8px 14px 8px #777777;
+#profileImg {
+    
+    width: 150px;
+    
 }
 
 span {
