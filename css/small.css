@@ -4,6 +4,8 @@ body {
     font-size: 18px;
     line-height: 1.5;
     font-family: 'Raleway', sans-serif;
+    background-color: darkslategray;
+    color: powderblue;
 }
 
 header,
@@ -15,8 +17,8 @@ footer {
 
 header,
 footer {
-    background-color: #a6b0dd;
-    color: #fff;
+    background-color: powderblue;
+    color: darkslategray;
     padding: 10px;
     text-align: center;
 }
@@ -51,6 +53,6 @@ span {
     font-weight: 700;
 }
 
-currentdate {
-    color: yellowgreen;
+#lastmodified {
+    color: darkorchid;
 }
