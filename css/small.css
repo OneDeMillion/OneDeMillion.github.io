@@ -6,7 +6,7 @@ body {
     font-family: 'Raleway', sans-serif;
     background-color: darkslategray;
     color: powderblue;
-
+    display: block;
 }
 
 header,
@@ -26,7 +26,6 @@ footer {
 
 header {
     padding: 1.5rem;
-    height: 100px;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -41,10 +40,34 @@ h2 {
     font-size: 1.5rem;
 }
 
+a:link {
+    color: yellow;
+}
+
+a:visited {
+    color: greenyellow;
+}
+
+a:hover {
+    color: magenta;
+}
+
+a:active {
+    color: limegreen;
+}
+
 #profileImg {
     
     width: 150px;
     
+}
+
+footer a:link {
+    color: blue;
+}
+
+footer a:visited {
+    color: orangered;
 }
 
 span {
