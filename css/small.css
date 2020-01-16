@@ -38,7 +38,7 @@ h1 {
 
 h2 {
     font-size: 1.5rem;
-    padding: 0 10px;
+    margin: 0 10px;
 }
 
 a:link {
@@ -55,12 +55,6 @@ a:hover {
 
 a:active {
     color: limegreen;
-}
-
-#profileImg {
-    
-    width: 150px;
-    
 }
 
 footer a:link {
