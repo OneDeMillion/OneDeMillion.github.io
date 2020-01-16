@@ -16,7 +16,7 @@ footer {
 #profileImg {
     float: right;
     margin: 0px;
-    
+    right: 20px;
     width: 150px;
     border-radius: 10px;
 }
