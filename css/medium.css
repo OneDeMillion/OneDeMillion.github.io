@@ -12,7 +12,7 @@
     h2 {
         font-size: 1.25rem;
     }
-    .headshot {
+    #headshot {
         border-radius: 10px;
         box-shadow: 8px 8px 14px 8px #777777;
         float: right;
