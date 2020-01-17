@@ -1,15 +1,24 @@
-@media screen only and (min-width: 32.5em){
+@media only screen and (min-width: 32.5em){
 
-
+    header,
+    footer {
+        border-radius: 10px;
+    }
+    
     h1 {
-        font-size: 50px;
+        font-size: 3rem;
     }
 
-    #headshot {
+    h2 {
+        font-size: 1.25rem;
+    }
+    .headshot {
         border-radius: 10px;
         box-shadow: 8px 8px 14px 8px #777777;
         float: right;
 
     }
+
+    
 
 }
