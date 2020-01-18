@@ -1,0 +1,82 @@
+body {
+    max-width: 900px;
+    background-color: #f7f9fc;
+    margin: 0 auto;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: darkslategray;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+}
+
+section {
+    background-color: #e4f7fa;
+    border-radius: 10px;
+    margin-left: 0;
+    margin-right: 0;
+}
+section h2, h3, p {
+    padding: 8px;
+    line-height: 1.5rem;
+}
+
+section h3 {
+    margin-bottom: 5px;
+}
+p {
+    margin: 5px 0;
+}
+
+section img {
+    display: block;
+    margin-left: 0;
+    margin-right:0;
+    width: 100%;
+}
+
+header {
+    background-color: powderblue;
+    text-align: center;
+    line-height: 1.5rem;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+header h1, h2 {
+    padding: 5px;
+}
+
+section h2 {
+    background-color: #c5f7f7;
+    color: darkslategray;
+    margin: 0;
+}
+
+footer {
+    background-color: powderblue;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+} 
+
+/* tablet */
+@media only screen and (min-width: 64em; {
+
+main {
+    grid-template-columns: 1fr 1fr;
+}
+
+}
+
+/* mobile phone */
+@media only screen and (min-width: 32.5em;) {
+
+main {
+    grid-template-columns: 1fr;
+}
+
+
+}
