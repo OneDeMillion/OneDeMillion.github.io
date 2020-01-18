@@ -34,7 +34,6 @@ section img {
     display: block;
     margin-left: 0;
     margin-right:0;
-    width: 100%;
 }
 
 header {
@@ -61,22 +60,3 @@ footer {
     padding: 10px;
     text-align: center;
 } 
-
-/* tablet */
-@media only screen and (min-width: 64em; {
-
-main {
-    grid-template-columns: 1fr 1fr;
-}
-
-}
-
-/* mobile phone */
-@media only screen and (min-width: 32.5em;) {
-
-main {
-    grid-template-columns: 1fr;
-}
-
-
-}
