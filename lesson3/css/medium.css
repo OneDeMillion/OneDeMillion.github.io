@@ -1,0 +1,20 @@
+@media only screen and (min-width: 37.5em) {
+
+    .name {
+        font-size: 30px;
+        
+    }
+    
+    .motto {
+        font-size: 20px;
+    }
+    
+    .section-img {
+        width: 50%;        
+    }
+
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+

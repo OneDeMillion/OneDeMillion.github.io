@@ -1,0 +1,128 @@
+body {
+  background-color: #6aace1;
+  font-family: "Open Sans", sans-serif;
+  color: #0f2e47;
+}
+
+header,
+main,
+nav,
+footer {
+  width: 0 auto;
+}
+
+header {
+  font-family: "Rammetto One", cursive;
+  color: #f5d642;
+  background-color: #1f5f94;
+  padding: 10px;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.header-logo {
+  float: left;
+}
+
+.name {
+  font-size: 45px;
+}
+
+.motto {
+  font-size: 28px;
+  color: white;
+  margin: 0;
+}
+
+section h2 {
+  font-family: "Rammetto One", cursive;
+}
+
+ul {
+  background-color: #f5d642;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #0f2e47;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 14px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #1f5f94;
+  color: white;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+section {
+  border-radius: 15px;
+  border-color: #6aace1;
+  border-width: 3px;
+  border-style: inset;
+  padding: 10px;
+}
+
+.section-img {
+  width: 80%;
+  text-align: center;
+  color: white;
+}
+
+section p {
+  line-height: 1.5;
+}
+
+footer {
+  background-color: white;
+  color: #1f4f94;
+  padding: 10px;
+  text-align: center;
+}
+
+a:link {
+  color: mediumblue;
+}
+
+.active {
+  background-color: #2a80c7;
+  color: white;
+}
+
+.colors-img {
+  width: 100%;
+}
+
+.typo-li {
+  background-color: #6aace1;
+}
+
+.typo1 {
+  font-family: "Rammetto One", cursive;
+}
+
+.typo2 {
+  font-family: "Open Sans", sans-serif;
+}
+
+.typo3 {
+  font-family: "Open Sans", sans-serif;
+}
