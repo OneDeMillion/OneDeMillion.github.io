@@ -8,13 +8,7 @@ body {
 		font-family: "Open Sans", sans-serif;
 		margin: 0 0;
 }
-
-main, footer {
-	max-width: 80%;
-	margin: 0 auto;	
-}
-
-header, nav {
+header, nav, main, footer{
 	max-width: 960px;
 	margin: 0 auto;
 }
@@ -23,9 +17,10 @@ header {
 	background-color: #1F5F94;
 	display: flex;
 	justify-content:center;
-	align-items: left;
+	align-items: center;
 	padding: 10px;
 	width: auto;
+	
 }
 
 header a img.header-logo {
