@@ -2,6 +2,12 @@
 
 header, nav{
     max-width: 100%;
+    margin: 0 auto;
+}
+
+main, footer {
+    max-width: 950px;
+    margin: 0 auto;
 }
 
 header a img.header-logo {
