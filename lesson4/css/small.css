@@ -60,6 +60,7 @@ h2 {
 
 .primaryNav li:first-child{
 	display: block;
+	background-color: #F5D642;
 }
 
 .primaryNav li{
