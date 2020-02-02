@@ -9,8 +9,8 @@ let d = new Date();
 let currentYear = d.getFullYear();
 document.getElementById('currentYear').textContent=currentYear;
 
-function getDate() {
-    let currDate = Date();
+
+    let currDate = new Date();
     var weekday = new Array(7);
     weekday[0]="Sunday";
     weekday[1]="Monday";
@@ -35,6 +35,5 @@ function getDate() {
     month[11]="December";
     var currMonth=month[currDate.getMonth()];
  var currDay=weekday[currDate.getDay()];
-let strDate=currDay+", "+currDate.getDate()+" "+currMonth+" "+currentYear;
-document.getElementById("todayDate").textContent=strDate;
-}
+let stringDate=currDay+", "+currDate.getDate()+" "+currMonth+" "+currentYear;
+document.getElementById("todayDate").textContent=stringDate;
