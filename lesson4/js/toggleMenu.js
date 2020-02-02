@@ -34,10 +34,7 @@ function getDate() {
     month[10]="November";
     month[11]="December";
     var currMonth=month[currDate.getMonth()];
-
-    var currDay=weekday[currDate.getDay()];
-
-    let strDate=currDay+", "+currDate.getDate()+" "+currMonth+" "+currDate.getDate().getFullYear();
-    
-    document.getElementById("fullDate").innerHTML=strDate;
+ var currDay=weekday[currDate.getDay()];
+let strDate=currDay+", "+currDate.getDate()+" "+currMonth+" "+currentYear;
+document.getElementById("todayDate").textContent=strDate;
 }
