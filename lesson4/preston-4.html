@@ -7,26 +7,28 @@
         <meta name="description" content="Weather Forecast site -  Weather or not - it will be a good day">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
         <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
         <link rel="stylesheet" href="css/large.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Rammetto+One&display=swap" rel="stylesheet">
+   
     </head>
     <body>
         <header>
-            <a href="index.html">
-            <img class="header-logo" src="images/iconfinder-256-white.png" alt="Sunblink logo">
+            <a href="#">
+            <img class="header-logo" src="images/sunblink-logo128rsz.png" alt="Sunblink logo">
             </a>
+            <div class="header-text">
             <h1>Sunblink Forecast</h1>
-            <h2>Weather or Not ...... Today Will Be Amazing!</h2>          
+            <div id="motto">Weather or Not ...... Today Will Be Amazing!</div> 
+            </div>      
         </header>
         
-            <h2>Preston, Idaho</h2>
-        
             <nav class="clearfix">
-                <button onclick="toggleMenu()">&#9776;</button>
-                <ul id="primaryNav" class="hide">
-                    <li><a class="active" href="#">Home</a></li>
-                    <li><a href="#">Preston</a></li>
+                <ul class="primaryNav respond">
+                    <li><a class="menuButton" href="#">&#9776; Menu</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a class="active" href="#">Preston</a></li>
                     <li><a href="#">Soda Springs</a></li>
                     <li><a href="#">Fish Haven</a></li>
                     <li><a href="#">Storm Center</a></li>
@@ -34,14 +36,22 @@
                 </ul>
             </nav>
         <main>
-            <div class="contentbox">Hero w/ weather summary</div>
-            <div class="content"
+            <h2>Preston Idaho</h2>
 
-
-
+            <div class="infoBox">Hero Image Weather Summary</div>
+            <div class="infoBox">5 Day Forecast</div>
+            <div class="infoBox">Article</div>
+            <div class="infoBox">Contact Info</div>
         </main>
+        <footer>
+            <p>&copy; 
+                <span id="currentYear"></span> Sunblink Forecast | Attributions  | Kim DeMille</p>
+            <p><span id="fullDate"><span></p>
 
-
+        </footer>
+        <script src="js/toggleMenu.js">
+        
+        </script>
 
     </body>
 </html>
