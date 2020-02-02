@@ -1,3 +1,4 @@
+@media only screen and (min-width: 32.5rem) {
 * {
 	box-sizing: border-box;
 }
@@ -8,7 +9,6 @@ body {
 		margin: 0 0;
 }
 
-
 main, footer {
 	max-width: 80%;
 	margin: 0 auto;	
@@ -18,28 +18,30 @@ header {
 	background-color: #1F5F94;
 	display: flex;
 	justify-content:center;
-	align-items: center;
+	align-items: left;
 	padding: 10px;
 	height: auto;
 }
 
-.header-logo {
+header a img.header-logo {
 	margin-right: 10px;
-
+	width: 50%;
+	float: right;
 }
 
-.header-text {
-	text-align: left;
+header.header-text {
+	text-align: left;	
 }
 
 h1 {
 	color: #F5D642;
 	margin-bottom: 4px;
+	font-size: 24px;
 }
 
 #motto{
 	color: white;
-	font-size: 13px;
+	font-size: 12px;
 	margin: 0;
 }
 
@@ -60,7 +62,8 @@ h2 {
 
 .primaryNav li:first-child{
 	display: block;
-	background-color: #F5D642;
+	border-top: 2px solid rgba(247, 247, 248, 0.2);
+	border-bottom: 2px solid rgba(247, 247, 248, 0.2);
 }
 
 .primaryNav li{
@@ -72,7 +75,7 @@ nav a {
 	text-decoration: none;
 	background-color: #F5D642;
 	color: #0F2E47;
-	padding: 10px;
+	padding: 15px;
 	border-top: 1px solid rgba(0,0,0,0.15);
 
 }
@@ -105,7 +108,7 @@ footer {
 	border-radius: 10px;
 }
 
-
+}
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
