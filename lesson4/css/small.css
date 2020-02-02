@@ -14,13 +14,18 @@ main, footer {
 	margin: 0 auto;	
 }
 
+header, nav {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
 header {
 	background-color: #1F5F94;
 	display: flex;
 	justify-content:center;
 	align-items: left;
 	padding: 10px;
-	height: auto;
+	width: auto;
 }
 
 header a img.header-logo {
@@ -106,6 +111,7 @@ footer {
 	text-align: center;
 	padding: 8px 0px;
 	border-radius: 10px;
+	font-size: 12px;
 }
 
 }
