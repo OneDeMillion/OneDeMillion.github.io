@@ -1,4 +1,4 @@
-@media only screen and (min-width: 32.5rem) {
+
 * {
 	box-sizing: border-box;
 }
@@ -111,7 +111,7 @@ footer {
 	font-size: 12px;
 }
 
-}
+
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
