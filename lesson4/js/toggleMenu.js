@@ -33,10 +33,11 @@ function getDate() {
     month[9]="October";
     month[10]="November";
     month[11]="December";
-
     var currMonth=month[currDate.getMonth()];
 
     var currDay=weekday[currDate.getDay()];
-    let dateString=currDay+", "+currDate.getDate()+" "+currMonth+" "+currDate.getDate().getFullYear();
-    document.getElementById("fullDate").innerHTML=dateString;
+
+    let strDate=currDay+", "+currDate.getDate()+" "+currMonth+" "+currDate.getDate().getFullYear();
+    
+    document.getElementById("fullDate").innerHTML=strDate;
 }
