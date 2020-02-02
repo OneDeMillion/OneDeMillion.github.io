@@ -1,13 +1,13 @@
 @media only screen and (min-width: 32rem) {
-    .header-logo img{
+    .header-logo img {
         width: 175px;
     }
 
     h1 {
         font-size: 30px;
     }
-    
-    #motto{
+
+    #motto {
         font-size: 16px;
     }
 
@@ -16,7 +16,7 @@
         background-color: #f8f3da;
         text-align: center;
     }
-    
+
     footer {
         font-size: 16px;
     }
