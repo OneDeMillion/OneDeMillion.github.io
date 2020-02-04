@@ -1,0 +1,49 @@
+@media only screen and (min-width:60em) {
+
+
+
+header a img.header-logo {
+        width: 100%;
+        margin: 0 auto;
+}
+
+h1 {
+	font-size: 32px;
+}
+
+#motto{
+	font-size: 16px;
+}
+
+.primaryNav {
+    display: flex;
+    overflow:auto;
+}
+
+nav a{
+    border: none;
+    border-right: 1px solid rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+nav li{
+    display: block;
+    flex: 1 1 100%;
+}
+
+.infoBox {
+	padding: 12px;
+    font-size: 18px;
+    background-color: white;
+    text-align: left;
+}
+
+.primaryNav li:first-child {
+    display:none;
+}
+
+footer {
+	font-size: 16px;
+}
+
+}
