@@ -12,7 +12,8 @@ h1 {
 }
 
 #motto{
-	font-size: 16px;
+    font-size: 15px;
+    white-space: nowrap;
 }
 
 .primaryNav {

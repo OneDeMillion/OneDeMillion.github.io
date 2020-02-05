@@ -3,7 +3,7 @@
         width: 150px;
     }
     
-    h1, h2, #motto {
+    h1, h2 {
         font-family: "Rammetto One", cursive;
     }    
 
@@ -12,7 +12,9 @@
     }
 
     #motto {
-        font-size: 14px;
+        font-size: 13px;
+        white-space: nowrap;
+        font-family: "Open Sans", sans-serif;
     }
 
     .infoBox {
