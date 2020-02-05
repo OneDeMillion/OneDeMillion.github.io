@@ -108,7 +108,8 @@ footer {
 	text-align: center;
 	padding: 10px 0px;
 	border-radius: 10px;
-	font-size: 12px;
+	font-size: 9px;
+	white-space: normal;
 	margin: 20px 10% 0;
 }
 

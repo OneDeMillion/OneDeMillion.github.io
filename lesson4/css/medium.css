@@ -37,12 +37,14 @@
         display: flex;
     }
 
-    nav li {
-        flex: 1 1 100%;
+    nav a {
+        font-size: 13px;
+        white-space: nowrap;
+        text-align: center;
     }
 
-    nav li a {
-        border: 1px solid white;
+    nav li {
+        flex: 1 1 100%;
     }
 
     nav .respond {
