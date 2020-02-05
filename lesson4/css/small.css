@@ -19,26 +19,27 @@ header {
 	display: flex;
 	justify-content:center;
 	align-items: center;
-	padding: 10px;
-	width: auto;
-	
+	padding: 10px;	
 }
 
 .header-logo img{
 	margin-right: 10px;
-	width: 128px;
+	width: 80px;
 	height: auto;
-	float: right;
 }
 
 header.header-text {
 	text-align: left;	
 }
 
+h1, h2 {
+	font-family: "Rammetto One", cursive;
+}
+
 h1 {
 	color: #F5D642;
 	margin-bottom: 4px;
-	font-size: 24px;
+	font-size: 20px;
 }
 
 #motto{
@@ -47,12 +48,8 @@ h1 {
 	margin: 0;
 }
 
-h1, h2, #motto {
-	font-family: "Rammetto One", cursive;
-}
 
 h2 {
-	color:#0F2E47;
 	text-align: center;
 }
 
