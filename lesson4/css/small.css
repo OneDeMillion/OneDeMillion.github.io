@@ -23,13 +23,9 @@ header {
 }
 
 .header-logo img{
-	margin-right: 10px;
-	width: 80px;
+	margin-right: 6px;
+	width: 70px;
 	height: auto;
-}
-
-header.header-text {
-	text-align: left;	
 }
 
 h1, h2 {
@@ -42,10 +38,11 @@ h1 {
 	font-size: 20px;
 }
 
-#motto{
+.motto{
 	color: white;
-	font-size: 12px;
+	font-size: 10.5px;
 	margin: 0;
+	text-align: center;
 }
 
 

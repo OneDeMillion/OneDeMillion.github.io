@@ -1,6 +1,7 @@
 @media only screen and (min-width: 32em) {
     .header-logo img {
         width: 150px;
+        margin-right: 10px;
     }
     
     h1, h2 {
@@ -11,7 +12,7 @@
         font-size: 30px;
     }
 
-    #motto {
+    .motto {
         font-size: 13px;
         white-space: nowrap;
         font-family: "Open Sans", sans-serif;
