@@ -110,9 +110,10 @@ footer {
 	margin: 20px 10% 0;
 }
 
-footer p span{
+span #todayDate {
 	margin-top:0;
-	margin-bottom: 0;
+	margin-botton:0;
+	color:red;
 }
 
 

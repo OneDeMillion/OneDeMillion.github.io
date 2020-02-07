@@ -90,14 +90,53 @@ nav a.active {
 	display:block;
 }
 
-.infoBox {
-	display: block;
+
+main {
+	
+}
+
+.heroDiv{
+	display:block;
+	border-radius: 5px;
+	text-align: center
+}
+
+.heroDiv img {
+	width:300px;
+	height:auto;
+	border-radius:5px;
+	margin:8px/5%;
+}
+
+/*hide 5 Day Forecast in small.css*/
+.forecast {
+	display:none;
+}
+
+.article {
 	background-color: white;
+	margin: 8px 10%;
 	padding: 10px;
-	border-radius: 9px;
-	margin: 8px 10%;	
-	font-size: 15px;
-	text-align: center;
+	display: block;
+	font-size: 12px;
+	line-height: 1.4;
+}
+
+.article img {
+	width: 240px;
+	height:auto;
+	box-shadow: 3px 5px 8px 8px rgba(2, 3, 29, 0.2);	
+}
+
+p.article {
+	width: 280px;
+}
+
+
+
+/*hide contact map in small.css*/
+.infoBox.contact img{
+	display:none;
 }
 
 footer {
@@ -110,10 +149,12 @@ footer {
 	margin: 20px 10% 0;
 }
 
-footer p span{
+#todayDate {
 	margin-top:0;
-	margin-bottom: 0;
+	margin-botton:0;
+	color:blue;
 }
+
 
 
 
