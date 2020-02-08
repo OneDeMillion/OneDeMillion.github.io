@@ -17,10 +17,7 @@
         white-space: nowrap;
         font-family: "Open Sans", sans-serif;
     }
-
-    .primaryNav {
-        display: none;
-    }
+/* menu */
 
     .primaryNav li:first-child {
         display: none;
@@ -93,10 +90,24 @@
 }
 
 /* article - switch to wrap image */
+div.article {
+    font-size: 14px;
+}
+
 .articleImg {
     width: 280px;
     float: right;
     margin: 10px;
+}
+
+h3.article {
+    font-size: 18px;
+}
+
+/* contact map - show contact map with contact info*/
+
+.contactMap {
+
 }
 
 
