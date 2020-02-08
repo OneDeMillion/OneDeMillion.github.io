@@ -108,14 +108,57 @@ h3.article {
 
 .contactMap {
     display: block;
+    width: auto;
+    height: auto;
 }
 
+.contactBox1 {
+    grid-template-columns: auto 20px auto;
+}
 
+.coName {
+    grid-column: 2 / span 2;
+    grid-row: 1;
+}
 
+.far.fa-address-book {
+    grid-column: 2 / 3;
+}
 
+div.adds {
+    grid-column: 3 / 4;
+}
 
+.fas.fa-mobile-alt {
+    grid-column: 2 / 3;
+}
 
+div.tel {
+    grid-column: 3 / 4;
+}
 
+.far.fa-envelope {
+    grid-column: 2 / 3;
+}
+
+.email {
+    grid-column: 3 / 4;
+}
+
+.smIcons {
+    grid-column: 2 / span 2;
+}
+
+div.smIcons img {
+    width: 20px;
+}
+
+iframe {
+    width: 98%;
+    height: auto;
+    grid-column: 1 / 2;
+    grid-row: 2 / span 4;
+}
 
 
 
