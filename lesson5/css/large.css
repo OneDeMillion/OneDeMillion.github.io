@@ -16,9 +16,14 @@ h1 {
     white-space: nowrap;
 }
 
+/* menu */
 .primaryNav {
     display: flex;
     overflow:auto;
+}
+
+.primaryNav li:first-child {
+    display:none;
 }
 
 nav a{
@@ -34,15 +39,26 @@ nav li{
     flex: 1 1 100%;
 }
 
-.infoBox {
-	padding: 12px;
-    font-size: 18px;
-    background-color: white;
-    text-align: left;
+/* hero and weather summary - increase size */
+
+.weatherSummary {
+    line-height: 1.5;
+    padding: 1rem;
 }
 
-.primaryNav li:first-child {
-    display:none;
+h3.weatherSummary {
+    margin: 10px;
 }
+
+.summaryGrid {
+    font-size: 15px;
+}
+
+/* 5 day forecast - increase lower margin */
+.forecast {
+    margin-bottom: 30px;
+}
+
+
 
 }
