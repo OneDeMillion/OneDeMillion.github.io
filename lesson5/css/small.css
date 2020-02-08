@@ -1,238 +1,242 @@
-
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-	background-color: #6AACE1;
-		font-family: "Open Sans", sans-serif;
-		margin: 0 0;
-		width: 100%;
+  background-color: #6aace1;
+  font-family: "Open Sans", sans-serif;
+  margin: 0 0;
+  width: 100%;
 }
-header, nav, footer{
-	max-width: 100%;
-	margin: 0 auto;
+
+header,
+nav,
+footer {
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 header {
-	background-color: #1F5F94;
-	display: flex;
-	justify-content:center;
-	align-items: center;
-	padding: 10px;	
+  background-color: #1f5f94;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
 }
 
-.header-logo img{
-	margin-right: 6px;
-	width: 70px;
-	height: auto;
+.header-logo img {
+  margin-right: 6px;
+  width: 70px;
+  height: auto;
 }
 
-h1, h2 {
-	font-family: "Rammetto One", cursive;
+h1,
+h2 {
+  font-family: "Rammetto One", cursive;
 }
 
 h1 {
-	color: #F5D642;
-	margin-bottom: 4px;
-	font-size: 20px;
+  color: #f5d642;
+  margin-bottom: 4px;
+  font-size: 20px;
 }
 
-.motto{
-	color: white;
-	font-size: 10.5px;
-	margin: 0;
-	text-align: center;
+.motto {
+  color: white;
+  font-size: 10.5px;
+  margin: 0;
+  text-align: center;
 }
-
 
 h2 {
-	text-align: center;
+  text-align: center;
 }
 
 .primaryNav {
-	list-style-type: none;
-	padding: 0;
-	margin:0;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
-.primaryNav li:first-child{
-	display: block;
-	border-top: 2px solid rgba(247, 247, 248, 0.2);
-	border-bottom: 2px solid rgba(247, 247, 248, 0.2);
+.primaryNav li:first-child {
+  display: block;
+  border-top: 2px solid rgba(247, 247, 248, 0.2);
+  border-bottom: 2px solid rgba(247, 247, 248, 0.2);
 }
 
-.primaryNav li{
-	display: none;
+.primaryNav li {
+  display: none;
 }
 
 nav a {
-	display: block;
-	text-decoration: none;
-	background-color: #F5D642;
-	color: #0F2E47;
-	padding: 15px;
-	border-top: 1px solid rgba(0,0,0,0.15);
-
+  display: block;
+  text-decoration: none;
+  background-color: #f5d642;
+  color: #0f2e47;
+  padding: 15px;
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
 }
 
 nav a:hover {
-	background-color: #1F5F94;
-	color: white;
+  background-color: #1f5f94;
+  color: white;
 }
 
 nav a.active {
-	background-color: white;
-	color: blue;
+  background-color: white;
+  color: blue;
 }
 
 .respond li {
-	display:block;
+  display: block;
 }
-
 
 main {
-	
 }
 
-.heroDiv{
-	
-	border-radius: 5px;
-	text-align: center;
-	position: relative;
-	margin: 8px auto;
+.heroDiv {
+  border-radius: 5px;
+  text-align: center;
+  position: relative;
+  margin: 8px auto;
 }
 
 .heroDiv img {
-	width:300px;
-	height:auto;
-	border-radius:5px;
+  width: 300px;
+  height: auto;
+  border-radius: 5px;
 }
 
 .weatherSummary {
-	position: absolute;
-	top: 25px;
-	left: 30px;
-	background: radial-gradient(#eee, #1F5F94);
-	border: 1px solid #000;
-	padding: .6rem;
-	box-shadow: 0 0 30px #111;
-	opacity: .8;
+  position: absolute;
+  top: 25px;
+  left: 30px;
+  background: radial-gradient(#eee, #1f5f94);
+  border: 1px solid #000;
+  padding: 0.6rem;
+  box-shadow: 0 0 30px #111;
+  opacity: 0.8;
 }
 
-.weatherSummary p{
-	margin: 0;
-	line-height: 1.2;
+.summaryGrid{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 15px;
 	font-size: 12px;
+}
+
+.label{
+	text-align: right;
+}
+
+.weathSumm{
+	text-align: left;
 }
 
 /*hide 5 Day Forecast in small.css*/
 .forecast {
-	display:none;
+  display: none;
 }
 
 .article {
-	background-color: white;
-	margin: 8px 10%;
-	padding: 10px;
-	display: block;
-	font-size: 12px;
-	line-height: 1.4;
+  background-color: white;
+  margin: 8px 10%;
+  padding: 10px;
+  display: block;
+  font-size: 12px;
+  line-height: 1.4;
 }
 
 .article img {
-	width: 240px;
-	height:auto;
-	box-shadow: 3px 5px 8px 8px rgba(2, 3, 29, 0.2);	
+  width: 240px;
+  height: auto;
+  box-shadow: 3px 5px 8px 8px rgba(2, 3, 29, 0.2);
 }
 
 p.article {
-	width: 280px;
+  width: 280px;
 }
 
 /*hide contact map in small.css*/
 .contactMap {
-	display:none;
+  display: none;
 }
 
 .contactBox1 {
-	display: grid;
-	grid-template-columns: 20px auto;
-	grid-gap: 10px;
-	background-color: rgba(31,95,148,0.4);
-	padding: 10px;
-	font-size: 12px;
-	justify-content: center;
+  display: grid;
+  grid-template-columns: 20px auto;
+  grid-gap: 10px;
+  background-color: rgba(31, 95, 148, 0.4);
+  padding: 10px;
+  font-size: 12px;
+  justify-content: center;
 }
 
 .coName {
-	grid-column: 1 / span 2;
-	color: #F5D642;
-	font-size:14px;
+  grid-column: 1 / span 2;
+  color: #f5d642;
+  font-size: 14px;
 }
 
 .far.fa-address-book {
-	grid-column: 1 / 2;
-	grid-row: 2 / 3;
-	color:blue;
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  color: blue;
 }
 
 div.adds {
-	grid-column: 2 / 3;
-	grid-row: 2 / 3;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
 }
 
 .fas.fa-mobile-alt {
-	grid-column: 1 / 2;
-	grid-row: 3 / 4;
-	color: white;
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+  color: white;
 }
 
 div.tel {
-	grid-column: 2 / 3;
-	grid-row: 3 / 4;
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
 }
 
 .far.fa-envelope {
-	grid-column: 1 / 2;
-	grid-row: 4 / 5;
-	color: cyan;
+  grid-column: 1 / 2;
+  grid-row: 4 / 5;
+  color: cyan;
 }
 
 .email {
-	grid-column: 2 / 3;
-	grid-row: 4 / 5;
+  grid-column: 2 / 3;
+  grid-row: 4 / 5;
 }
 
 .smIcons {
-	grid-column: 1 / span 2;
-	grid-row: 5 / 6;
+  grid-column: 1 / span 2;
+  grid-row: 5 / 6;
 }
 
 div.smIcons img {
-	width: 16px;
+  width: 16px;
 }
 
 footer {
-	background-color: white;
-	text-align: center;
-	padding: 10px 0px;
-	font-size: 9px;
-	white-space: normal;
+  background-color: white;
+  text-align: center;
+  padding: 10px 0px;
+  font-size: 9px;
+  white-space: normal;
 }
 
 #todayDate {
-	margin-top:0;
-	margin-botton:0;
-	color:blue;
+  margin-top: 0;
+  margin-botton: 0;
+  color: blue;
 }
-
-
-
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
-	content: "";
-	display: table;
-	clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
