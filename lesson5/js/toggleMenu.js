@@ -37,3 +37,11 @@ document.getElementById('currentYear').textContent=currentYear;
  var currDay=weekday[currDate.getDay()];
 let stringDate=currDay+", "+currDate.getDate()+" "+currMonth+" "+currentYear;
 document.getElementById("todayDate").textContent=stringDate;
+
+function Banner() {
+    let currDate = new Date();
+    let today = currDate.getDay();
+    if(today==5) {
+        document.getElementById("pancakes").style.display="block";
+    }
+}

@@ -28,7 +28,6 @@ footer, .pancakes{
   margin: 0;
   padding: 12px;
   line-height: 1.5;
-  
 }
 
 header {
@@ -259,8 +258,7 @@ footer {
 }
 
 #todayDate {
-  margin-top: 0;
-  margin-botton: 0;
+  margin: 0;
   color: blue;
 }
 
