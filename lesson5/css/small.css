@@ -9,7 +9,7 @@ body {
 		margin: 0 0;
 		width: 100%;
 }
-header, nav{
+header, nav, footer{
 	max-width: 100%;
 	margin: 0 auto;
 }
@@ -96,16 +96,34 @@ main {
 }
 
 .heroDiv{
-	display:block;
+	
 	border-radius: 5px;
-	text-align: center
+	text-align: center;
+	position: relative;
+	margin: 8px auto;
 }
 
 .heroDiv img {
 	width:300px;
 	height:auto;
 	border-radius:5px;
-	margin:8px/5%;
+}
+
+.weatherSummary {
+	position: absolute;
+	top: 25px;
+	left: 30px;
+	background: radial-gradient(#eee, #1F5F94);
+	border: 1px solid #000;
+	padding: .6rem;
+	box-shadow: 0 0 30px #111;
+	opacity: .8;
+}
+
+.weatherSummary p{
+	margin: 0;
+	line-height: 1.2;
+	font-size: 12px;
 }
 
 /*hide 5 Day Forecast in small.css*/
@@ -132,21 +150,75 @@ p.article {
 	width: 280px;
 }
 
-
-
 /*hide contact map in small.css*/
-.infoBox.contact img{
+.contactMap {
 	display:none;
+}
+
+.contactBox1 {
+	display: grid;
+	grid-template-columns: 20px auto;
+	grid-gap: 10px;
+	background-color: rgba(31,95,148,0.4);
+	padding: 10px;
+	font-size: 12px;
+	justify-content: center;
+}
+
+.coName {
+	grid-column: 1 / span 2;
+	color: #F5D642;
+	font-size:14px;
+}
+
+.far.fa-address-book {
+	grid-column: 1 / 2;
+	grid-row: 2 / 3;
+	color:blue;
+}
+
+div.adds {
+	grid-column: 2 / 3;
+	grid-row: 2 / 3;
+}
+
+.fas.fa-mobile-alt {
+	grid-column: 1 / 2;
+	grid-row: 3 / 4;
+	color: white;
+}
+
+div.tel {
+	grid-column: 2 / 3;
+	grid-row: 3 / 4;
+}
+
+.far.fa-envelope {
+	grid-column: 1 / 2;
+	grid-row: 4 / 5;
+	color: cyan;
+}
+
+.email {
+	grid-column: 2 / 3;
+	grid-row: 4 / 5;
+}
+
+.smIcons {
+	grid-column: 1 / span 2;
+	grid-row: 5 / 6;
+}
+
+div.smIcons img {
+	width: 16px;
 }
 
 footer {
 	background-color: white;
 	text-align: center;
 	padding: 10px 0px;
-	border-radius: 10px;
 	font-size: 9px;
 	white-space: normal;
-	margin: 20px 10% 0;
 }
 
 #todayDate {
