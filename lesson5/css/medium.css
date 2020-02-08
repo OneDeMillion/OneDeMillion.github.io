@@ -107,8 +107,13 @@ h3.article {
 /* contact map - show contact map with contact info*/
 
 .contactMap {
-
+    display: block;
 }
+
+
+
+
+
 
 
 
