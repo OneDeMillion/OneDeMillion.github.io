@@ -1,7 +1,7 @@
 @media only screen and (min-width: 32em) {
     .header-logo img {
         width: 150px;
-        margin-right: 10px;
+        margin-right: 9px;
     }
     
     h1, h2 {
@@ -9,7 +9,7 @@
     }    
 
     h1 {
-        font-size: 30px;
+        font-size: 31px;
     }
 
     .motto {
@@ -143,13 +143,15 @@ div.tel {
     grid-column: 3 / 4;
 }
 
-.smIcons {
-    grid-column: 2 / span 2;
-}
 
 div.smIcons img {
     width: 20px;
 }
+
+.smIcons {
+    grid-column: 2 / span 2;
+}
+
 
 .contactMap {
     width: 98%;
