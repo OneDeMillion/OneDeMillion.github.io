@@ -14,7 +14,7 @@
     />
     <link rel="stylesheet" href="css/small.css" />
     <link rel="stylesheet" href="css/medium.css" />
-    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/large.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
@@ -26,10 +26,7 @@
     <script src="js/toggleMenu.js"></script>
   </head>
   <body>
-    <div class="pancakes">
-      <span>Saturday = Preston Pancakes in the Park!<br>
-      9:00am Saturday at the City Park</span>
-    </div>
+    <div id="pancakes"></div>
     <header>
       <div class="header-logo">
         <a href="#">
@@ -56,94 +53,113 @@
     <main>
       <h2>Preston Idaho</h2>
 
-    <div class="heroDiv">
-      <img src="images/hero-960.jpeg" alt="Illustration of sun shining over mountains">
-      <section class="weatherSummary">
-        <h3>Weather Summary</h3>
-        <div class="summaryGrid">
-        <div class="label">Currently: </div>
-        <div class="weathSumm current">Sunny</div>
-        <div class="label">High: </div>
-        <div class="weathSumm highTemp">45 &#176;F </div>
-        <div class="label">Wind Chill: </div>
-        <div class="weathSumm windchill">40 &#176;F</div>
-        <div class="label">Humidity: </div>
-        <div class="weathSumm humidity">18%</div>
-        <div class="label">Wind Speed: </div>
-        <div class="weathSumm windSpd">5 mph</div>
+      <div class="heroDiv">
+        <img
+          src="images/hero-960.jpeg"
+          alt="Illustration of sun shining over mountains"
+        />
+        <section class="weatherSummary">
+          <h3>Weather Summary</h3>
+          <div class="summaryGrid">
+            <div class="label">Currently:</div>
+            <div class="weathSumm current">Sunny</div>
+            <div class="label">High:</div>
+            <div class="weathSumm highTemp">45 &#176;F</div>
+            <div class="label">Wind Chill:</div>
+            <div class="weathSumm windchill">40 &#176;F</div>
+            <div class="label">Humidity:</div>
+            <div class="weathSumm humidity">18%</div>
+            <div class="label">Wind Speed:</div>
+            <div class="weathSumm windSpd">5 mph</div>
+          </div>
+        </section>
+      </div>
+
+      <div class="forecast">
+        <h3>5 Day Forecast</h3>
+        <div class="flex">
+          <div class="col">
+            <span class="fivelabel">Wed</span>
+            <img src="images/snow_cloud.png" alt="cloud with snowflake" />
+            <span class="data">35 &#176;F</span>
+          </div>
+          <div class="col">
+            <span class="fivelabel">Thurs</span>
+            <img src="images/snowflake.png" alt="snowflake" />
+            <span class="data">36 &#176;F</span>
+          </div>
+          <div class="col">
+            <span class="fivelabel">Fri</span>
+            <img src="images/snowflake.png" alt="snowflake" />
+            <span class="data">35 &#176;F</span>
+          </div>
+          <div class="col">
+            <span class="fivelabel">Sat</span>
+            <img
+              src="images/thermometer_cold.png"
+              alt="thermoter showing cold temps"
+            />
+            <span class="data">36 &#176;F</span>
+          </div>
+          <div class="col">
+            <span class="fivelabel">Sun</span>
+            <img
+              src="images/snow_sun_cloud.png"
+              alt="clouds with sun shining and snowflakes"
+            />
+            <span class="data">33 &#176;F</span>
+          </div>
         </div>
-      </section>
-    </div>
+      </div>
 
-    <div class="forecast">
-      <h3>5 Day Forecast</h3>
-      <div class="flex">
-      <div class="col">
-        <span class="fivelabel">Wed</span>
-        <img src="images/snow_cloud.png" alt="cloud with snowflake">
-        <span class="data">35 &#176;F</span>
-    </div>
-    <div class="col">
-      <span class="fivelabel">Thurs</span>
-      <img src="images/snowflake.png" alt="snowflake">
-      <span class="data">36 &#176;F</span>
-  </div>
-  <div class="col">
-    <span class="fivelabel">Fri</span>
-    <img src="images/snowflake.png" alt="snowflake">
-    <span class="data">35 &#176;F</span>
-</div>
-<div class="col">
-  <span class="fivelabel">Sat</span>
-  <img src="images/thermometer_cold.png" alt="thermoter showing cold temps">
-  <span class="data">36 &#176;F</span>
-</div>
-<div class="col">
-  <span class="fivelabel">Sun</span>
-  <img src="images/snow_sun_cloud.png" alt="clouds with sun shining and snowflakes">
-  <span class="data">33 &#176;F</span>
-</div>
-</div>
-    </div>
+      <div class="article">
+        <img
+          class="articleImg"
+          src="images/snowball-280.jpeg"
+          alt="man and woman having a snowball fight"
+        />
+        <h3>Tickets for Snowballs!</h3>
+        <h5>by Kim DeMille</h5>
+        <p>
+          One of the first images that springs to mind when we start seeing
+          snowflakes falling from the sky is snowball fights. Many of us have
+          very fond memories of carefully molding ball after ball into shape,
+          and piling them high, ready to wage war in the age-old duals of the
+          white flakes. However, did you know that there are city ordinances
+          regarding snowball fights? If you don't follow city code you could
+          find yourself with a ticket next time you run out and take battle with
+          your friends at the park with your snowball maker in hand? Don't
+          worry! We've got the scoop on what to do and not do to follow the
+          rules and still have all the fun that snow days have to offer.
+        </p>
+      </div>
 
-    <div class="article">
-      <img class="articleImg" src="images/snowball-280.jpeg" alt="man and woman having a snowball fight">
-      <h3>Tickets for Snowballs!</h3>
-      <h5>by Kim DeMille</h5>
-      <p>One of the first images that springs to mind when we start seeing snowflakes
-        falling from the sky is snowball fights.  Many of us have very fond memories
-        of carefully molding ball after ball into shape, and piling them high, ready
-        to wage war in the age-old duals of the white flakes. However, did you know 
-        that there are city ordinances regarding snowball fights? If you don't follow
-        city code you could find yourself with a ticket next time you run out and take
-        battle with your friends at the park with your snowball maker in hand?
-
-        Don't worry! We've got the scoop on what to do and not do to follow the rules 
-        and still have all the fun that snow days have to offer.
-      </p>
-    </div>
-
-
-
-<div class="contactBox1">
-  <div class="coName"><span><strong>Sunblink Forecast</strong></span></div>
-  <span class="far fa-address-book"></span>
-  <div class="adds"> 30 N 1st E<br/> Preston, ID 83263</div>
-  <span class="fas fa-mobile-alt"></span>
-  <div class="tel">999.999.9999</div>
-  <span class="far fa-envelope"></span>
-  <div class="email"><a href="../">www.sunblink.today.com</a></div>
-  <div class="smIcons">
-    <img src="images/facebook.png" alt="facebook icon">
-    <img src="images/twitter.png" alt="twitter icon">
-    <img src="images/pinterest.png" alt="pinterest icon">
-    <img src="images/whatsapp.png" alt="whatsapp icon">
-    </div>
-    <div class="contactMap">
-      <iframe title="Preston, ID map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.77385342863!2d-111.91534438982458!3d42.09974162640304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1581206034373!5m2!1sen!2sus"></iframe>  </div> 
-</div>
-
-
+      <div class="contactBox1">
+        <div class="coName">
+          <span><strong>Sunblink Forecast</strong></span>
+        </div>
+        <span class="far fa-address-book"></span>
+        <div class="adds">
+          30 N 1st E<br />
+          Preston, ID 83263
+        </div>
+        <span class="fas fa-mobile-alt"></span>
+        <div class="tel">999.999.9999</div>
+        <span class="far fa-envelope"></span>
+        <div class="email"><a href="../">www.sunblink.today.com</a></div>
+        <div class="smIcons">
+          <img src="images/facebook.png" alt="facebook icon" />
+          <img src="images/twitter.png" alt="twitter icon" />
+          <img src="images/pinterest.png" alt="pinterest icon" />
+          <img src="images/whatsapp.png" alt="whatsapp icon" />
+        </div>
+        <div class="contactMap">
+          <iframe
+            title="Preston, ID map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.77385342863!2d-111.91534438982458!3d42.09974162640304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1581206034373!5m2!1sen!2sus"
+          ></iframe>
+        </div>
+      </div>
     </main>
     <footer>
       <p>
@@ -153,10 +169,7 @@
       <p><span id="todayDate"></span></p>
     </footer>
     <script>
-      Banner();
     </script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-
-    
   </body>
 </html>

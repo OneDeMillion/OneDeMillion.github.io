@@ -38,10 +38,15 @@ document.getElementById('currentYear').textContent=currentYear;
 let stringDate=currDay+", "+currDate.getDate()+" "+currMonth+" "+currentYear;
 document.getElementById("todayDate").textContent=stringDate;
 
-function Banner() {
-    let currDate = new Date();
-    let today = currDate.getDay();
-    if(today==6) {
-        document.getElementById("pancakes").style.display="block";
-    }
+// banner - will display if Friday //
+
+if (weekday==7){
+    let text = "Saturday = Preston Pancakes in the Park! 9am Saturday at the city park pavillion.";
+    document.getElementById('pancakes').innerHTML=text;
+    document.getElementById('pancakes').style.backgroundColor="#0fb4e7";
+    document.getElementById('pancakes').style.textAlign="center";
+    document.getElementById('pancakes').style.fontSize="14px";
+    document.getElementById('pancakes').style.padding="12px";
+    document.getElementById('pancakes').style.display="block";
 }
+
