@@ -41,7 +41,7 @@ document.getElementById("todayDate").textContent=stringDate;
 function Banner() {
     let currDate = new Date();
     let today = currDate.getDay();
-    if(today==5) {
+    if(today==3) {
         document.getElementById("pancakes").style.display="block";
     }
 }
