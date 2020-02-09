@@ -16,6 +16,16 @@ h1 {
     white-space: nowrap;
 }
 
+
+h2 {
+    font-size: 28px;
+}
+
+.heroDiv {
+    margin: 8px auto 20px;
+}
+
+/* menu */
 .primaryNav {
     display: flex;
     overflow:auto;
@@ -39,12 +49,9 @@ a.menuButton{
     display: none;
 }
 
-.infoBox {
-	padding: 12px;
-    font-size: 18px;
-    background-color: white;
-    text-align: left;
+/* article - increase font*/
+div.article {
+    font-size: 16px;
+    line-height: 1.5;
 }
-
-
 }
