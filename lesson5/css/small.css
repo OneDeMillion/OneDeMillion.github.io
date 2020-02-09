@@ -11,7 +11,7 @@ body {
 
 header,
 nav,
-footer, .pancakes{
+footer{
   max-width: 100%;
   margin: 0 auto;
 }
@@ -25,9 +25,11 @@ footer, .pancakes{
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a9e4f7', endColorstr='#0fb4e7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
   text-align: center;
   font-size: 14px;
-  margin: 0;
   padding: 12px;
   line-height: 1.5;
+  max-width: 100%;
+  margin: 0 auto;
+  display: none;
 }
 
 header {
