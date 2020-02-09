@@ -19,27 +19,24 @@
     }
 /* menu */
 
-    .primaryNav li:first-child {
-        display: none;
-    }
-
-    .primaryNav {
-        display: flex;
-    }
-
+  
     nav a {
         font-size: 13px;
         white-space: nowrap;
         text-align: center;
     }
 
-    nav li {
+    nav .respond {
+        display: flex;
+    }
+
+    nav li{
         flex: 1 1 100%;
         display: block;
     }
 
-    nav .respond {
-        display: flex;
+    .primaryNav li:first-of-type {
+        display:none;
     }
 
 /* 5 day forecast summary - flex */
@@ -154,11 +151,11 @@ div.smIcons img {
     width: 20px;
 }
 
-iframe {
+.contactMap {
     width: 98%;
     height: auto;
     grid-column: 1 / 2;
-    grid-row: 2 / span 4;
+    grid-row: 1 / span 5;
 }
 
 
