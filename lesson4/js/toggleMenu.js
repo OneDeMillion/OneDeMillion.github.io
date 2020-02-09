@@ -1,5 +1,5 @@
-const menuButton = document.querySelector(".menuButton");
-menuButton.addEventListener("click", toggleMenu, false);
+const menuButton1 = document.querySelector(".menuButton");
+menuButton1.addEventListener("click", toggleMenu, false);
 
 function toggleMenu() {
     document.querySelector("*.primaryNav").classList.toggle("respond");
