@@ -1,0 +1,169 @@
+@media only screen and (min-width: 32em) {
+    .header-logo img {
+        width: 150px;
+        margin-right: 9px;
+    }
+    
+    h1, h2 {
+        font-family: "Rammetto One", cursive;
+    }    
+
+    h1 {
+        font-size: 31px;
+    }
+
+    .motto {
+        font-size: 13px;
+        white-space: nowrap;
+        font-family: "Open Sans", sans-serif;
+    }
+/* menu */
+
+  
+    nav a {
+        font-size: 13px;
+        white-space: nowrap;
+        text-align: center;
+    }
+
+    nav .respond {
+        display: flex;
+    }
+
+    nav li{
+        flex: 1 1 100%;
+        display: block;
+    }
+
+    .primaryNav li:first-of-type {
+        display:none;
+    }
+
+/* 5 day forecast summary - flex */
+.forecast {
+    display: block;
+    width: 28em;
+    margin: 0 auto 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    flex: 1 1 100%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    background-color: rgb(13, 136, 236);
+    font-size: 13px;
+    text-align: center;
+}
+
+.flex div:last-child {
+    border-right: 1px solid black;
+}
+
+.fivelabel {
+    display: block;
+    padding: 5px;
+    font-weight: 900;
+    font-size: 15px;
+    border-bottom: 1px solid black;
+    background-color: #eee;
+}
+
+.flex div img, table img {
+    border-radius: 100px;
+    padding: 5px;
+}
+
+.data {
+    display: block;
+    padding: 0 5px 5px;
+    color: white;
+}
+
+/* article - switch to wrap image */
+div.article {
+    font-size: 14px;
+}
+
+.articleImg {
+    width: 280px;
+    float: right;
+    margin: 10px;
+}
+
+h3.article {
+    font-size: 18px;
+}
+
+/* contact map - show contact map with contact info*/
+
+.contactMap {
+    display: block;
+    width: auto;
+    height: auto;
+}
+
+.contactBox1 {
+    grid-template-columns: auto 20px auto;
+}
+
+.coName {
+    grid-column: 2 / span 2;
+    grid-row: 1;
+}
+
+.far.fa-address-book {
+    grid-column: 2 / 3;
+}
+
+div.adds {
+    grid-column: 3 / 4;
+}
+
+.fas.fa-mobile-alt {
+    grid-column: 2 / 3;
+}
+
+div.tel {
+    grid-column: 3 / 4;
+}
+
+.far.fa-envelope {
+    grid-column: 2 / 3;
+}
+
+.email {
+    grid-column: 3 / 4;
+}
+
+
+div.smIcons img {
+    width: 20px;
+}
+
+.smIcons {
+    grid-column: 2 / span 2;
+}
+
+
+.contactMap {
+    width: 98%;
+    height: auto;
+    grid-column: 1 / 2;
+    grid-row: 1 / span 5;
+}
+
+
+    footer {
+        font-size: 16px;
+    }
+
+
+}
