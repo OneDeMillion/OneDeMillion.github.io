@@ -2,6 +2,8 @@
   box-sizing: border-box;
 }
 
+
+/*-- BODY --*/
 body {
   background-color: #6aace1;
   font-family: "Open Sans", sans-serif;
@@ -16,7 +18,7 @@ footer{
   margin: 0 auto;
 }
 
-
+/*-- HEADER --*/
 header {
   background-color: #1f5f94;
   display: flex;
@@ -53,7 +55,7 @@ h2 {
   text-align: center;
 }
 
-/* menu */
+/* MENU */
 .primaryNav {
   list-style-type: none;
   padding: 0;
@@ -93,7 +95,7 @@ nav a.active {
   display: block;
 }
 
-/* hero and weather summary */
+/* HERO and WEATHER SUMMARY */
 .heroDiv {
   border-radius: 5px;
   text-align: center;
@@ -120,10 +122,6 @@ nav a.active {
   line-height: 1.3;
 }
 
-h3.weatherSummary {
-	margin: 8px;
-}
-
 .summaryGrid{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -139,13 +137,13 @@ h3.weatherSummary {
 	text-align: left;
 }
 
-/*hide 5 Day Forecast in small.css*/
+/*--hide 5 Day FORECAST in small.css--*/
 .forecast {
   display: none;
 }
 
-/*article - text below image*/
-div.article {
+/*-- ARTICLE - text below image--*/
+div.newsArticle {
   background-color: white;
   margin: 8px 10% 20px;
   padding: 15px;
@@ -154,18 +152,18 @@ div.article {
   line-height: 1.4;
 }
 
-.articleImg {
+.newsArticleImg {
   width: 100%;
   height: auto;
   box-shadow: 0 0 28px #0f2e47;
 }
 
-p.article {
+.newsArticleP {
   width: 280px;
 }
 
-h3.article {
-	color: #0f2e47;	
+.newsArticleH3 {
+	color: blue;
 	font-size: 16px;
 }
 
