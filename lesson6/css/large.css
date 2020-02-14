@@ -1,7 +1,7 @@
 @media only screen and (min-width:60rem) {
 
 
-
+/*-- HEADER --*/
 header a img.header-logo {
         width: 80%;
         margin: 0 auto;
@@ -16,7 +16,7 @@ h1 {
     white-space: nowrap;
 }
 
-/* menu */
+/*-- MENU --*/
 .primaryNav {
     display: flex;
     overflow:auto;
@@ -39,7 +39,7 @@ nav li{
     flex: 1 1 100%;
 }
 
-/* hero and weather summary - increase size */
+/*-- HERO and WEATHER SUMMARY - increase size --*/
 
 .weatherSummary {
     line-height: 1.5;
@@ -54,7 +54,7 @@ h3.weatherSummary {
     font-size: 15px;
 }
 
-/* 5 day forecast - increase lower margin */
+/*-- 5 day FORECAST - increase lower margin --*/
 .forecast {
     margin-bottom: 30px;
 }

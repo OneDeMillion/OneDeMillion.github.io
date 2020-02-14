@@ -1,4 +1,6 @@
 @media only screen and (min-width: 32em) {
+
+    /*-- HEADER --*/
     .header-logo img {
         width: 150px;
         margin-right: 9px;
@@ -17,7 +19,7 @@
         white-space: nowrap;
         font-family: "Open Sans", sans-serif;
     }
-/* menu */
+/*-- MENU --*/
 
   
     nav a {
@@ -39,7 +41,7 @@
         display:none;
     }
 
-/* 5 day forecast summary - flex */
+/*-- 5 day FORECAST summary - flex --*/
 .forecast {
     display: block;
     width: 28em;
@@ -87,22 +89,22 @@
     color: white;
 }
 
-/* article - switch to wrap image */
-div.article {
+/*-- ARTICLE - switch to wrap image --*/
+div.newsArticle {
     font-size: 14px;
 }
 
-.articleImg {
+.newsArticleImg {
     width: 280px;
     float: right;
     margin: 10px;
 }
 
-h3.article {
+.newsArticleH3 {
     font-size: 18px;
 }
 
-/* contact map - show contact map with contact info*/
+/*-- CONTACT map - show contact map with contact info--*/
 
 .contactMap {
     display: block;
@@ -160,7 +162,7 @@ div.smIcons img {
     grid-row: 1 / span 5;
 }
 
-
+/*-- FOOTER --*/
     footer {
         font-size: 16px;
     }
