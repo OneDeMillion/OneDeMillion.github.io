@@ -37,6 +37,10 @@ nav li{
 
 /*-- HERO and WEATHER SUMMARY - increase size --*/
 
+.heroDiv {
+    width: 70%;
+}
+
 .weatherSummary {
     line-height: 1.5;
     padding: 1rem;
@@ -51,6 +55,10 @@ nav li{
     margin-bottom: 30px;
 }
 
-
+/*--ARTICLE - reduce article width size--*/
+div.newsArticle {
+    width: 70%;
+    margin: 0 auto;
+}
 
 }
