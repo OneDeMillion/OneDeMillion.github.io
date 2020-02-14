@@ -2,10 +2,6 @@
 
 
 /*-- HEADER --*/
-header a img.header-logo {
-        width: 80%;
-        margin: 0 auto;
-}
 
 h1 {
 	font-size: 32px;
@@ -44,10 +40,6 @@ nav li{
 .weatherSummary {
     line-height: 1.5;
     padding: 1rem;
-}
-
-h3.weatherSummary {
-    margin: 10px;
 }
 
 .summaryGrid {
