@@ -12,10 +12,9 @@ document.getElementById('currentYear').textContent=currentYear;
     weekday[4]="Thursday";
     weekday[5]="Friday";
     weekday[6]="Saturday";
-
-    if weekday==5{
-        let text = "Saturday = Preston Pancakes in the Park! 9am Saturday at the city park pavillion.";
-        document.getElementById('pancakes').innerHTML="text";
+    if (weekday==5){
+        var text = "Saturday = Preston Pancakes in the Park! 9am Saturday at the city park pavillion.";
+        document.getElementById('pancakes').innerHTML=text;
         document.getElementById('pancakes').style.backgroundColor="#0fb4e7";
         document.getElementById('pancakes').style.textAlign="center";
         document.getElementById('pancakes').style.fontSize="14px";
