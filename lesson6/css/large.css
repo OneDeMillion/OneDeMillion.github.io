@@ -22,7 +22,7 @@ h1 {
     display:none;
 }
 
-nav a{
+.primaryNav a{
     border: none;
     border-right: 1px solid rgba(0,0,0,0.1);
     text-align: center;
@@ -30,7 +30,7 @@ nav a{
     font-size: 16px;
 }
 
-nav li{
+.primaryNav li{
     display: block;
     flex: 1 1 100%;
 }

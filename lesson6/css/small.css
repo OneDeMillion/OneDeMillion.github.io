@@ -79,7 +79,7 @@ h2 {
   display: none;
 }
 
-nav a {
+ul a {
   display: block;
   text-decoration: none;
   background-color: #f5d642;
@@ -88,12 +88,12 @@ nav a {
   border-top: 1px solid rgba(0, 0, 0, 0.15);
 }
 
-nav a:hover {
+ul a:hover {
   background-color: #1f5f94;
   color: white;
 }
 
-nav a.active {
+ul a.active {
   background-color: white;
   color: blue;
 }
