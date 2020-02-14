@@ -15,7 +15,7 @@ document.getElementById('currentYear').textContent=currentYear;
 
     if weekday==5{
         let text = "Saturday = Preston Pancakes in the Park! 9am Saturday at the city park pavillion.";
-        document.getElementById('pancakes').innerHTML=text;
+        document.getElementById('pancakes').innerHTML="text";
         document.getElementById('pancakes').style.backgroundColor="#0fb4e7";
         document.getElementById('pancakes').style.textAlign="center";
         document.getElementById('pancakes').style.fontSize="14px";
