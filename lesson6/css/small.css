@@ -18,6 +18,17 @@ footer{
   margin: 0 auto;
 }
 
+/*-- BANNER --*/
+#pancakes {
+  background-color: #0fb4e7;
+  text-align: center;
+  font-size: 14px;
+  padding: 12px;
+  display:none;
+}
+
+
+
 /*-- HEADER --*/
 header {
   background-color: #1f5f94;
