@@ -79,21 +79,21 @@ h2 {
   display: none;
 }
 
-ul a {
+.primaryNav a {
   display: block;
   text-decoration: none;
   background-color: #f5d642;
   color: #0f2e47;
-  padding: 15px;
+  padding: 15px;  
   border-top: 1px solid rgba(0, 0, 0, 0.15);
 }
 
-ul a:hover {
+.primaryNav a:hover {
   background-color: #1f5f94;
   color: white;
 }
 
-ul a.active {
+.primaryNav a.active {
   background-color: white;
   color: blue;
 }
