@@ -86,7 +86,7 @@
 .data {
     display: block;
     padding: 0 5px 10px;
-    color: white;
+    color:black;
     font-weight: 900;
     font-size: 17px;
 }

@@ -184,7 +184,7 @@ h5 {
 
 .coName {
   grid-column: 1 / span 2;
-  color: white;
+  color: Black;
   font-size: 14px;
 }
 
@@ -240,7 +240,7 @@ footer {
 }
 
 .contactBox1 a {
-  color: cyan;
+  color: blueviolet;
 }
 
 #todayDate {
