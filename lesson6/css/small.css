@@ -176,7 +176,7 @@ h5 {
   display: grid;
   grid-template-columns: 20px auto;
   grid-gap: 10px;
-  background-color: rgba(31, 95, 148, 0.4);
+  background-color: rgba(244, 246, 248, 0.4);
   padding: 20px;
   font-size: 12px;
   justify-content: center;
@@ -213,7 +213,7 @@ div.tel {
 .far.fa-envelope {
   grid-column: 1 / 2;
   grid-row: 4 / 5;
-  color: cyan;
+  color: purple;
 }
 
 .email {
@@ -240,7 +240,7 @@ footer {
 }
 
 .contactBox1 a {
-  color: chartreuse;
+  color: purple;
 }
 
 #todayDate {
