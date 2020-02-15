@@ -25,7 +25,7 @@ div #pancakes {
 }
 
 #pancakes {
-  background-color: #0ebeb4;
+  background-color: palegoldenrod;
   text-align: center;
   font-size: 15px;
   padding: 18px;
@@ -101,10 +101,17 @@ h2 {
   color: white;
 }
 
+.primaryNav a.active:hover {
+  background-color: #548ebd;
+  color: white;
+}
+
+
 .primaryNav a.active {
   background-color: white;
   color: blue;
 }
+
 
 .respond li {
   display: block;
