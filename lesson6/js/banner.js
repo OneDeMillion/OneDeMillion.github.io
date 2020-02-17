@@ -1,5 +1,5 @@
 
     
-if (d.getDay==5){
+if (d.getDay==6){
     document.getElementById('pancakes').style.display="block";
     }

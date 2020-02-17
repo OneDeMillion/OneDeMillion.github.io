@@ -20,9 +20,6 @@ footer{
 
 /*-- BANNER --*/
 
-div #pancakes {
-  display: none;
-}
 
 #pancakes {
   background-color: palegoldenrod;
@@ -30,6 +27,7 @@ div #pancakes {
   font-size: 15px;
   padding: 18px;
   font-weight: 700;
+  display:none;
 }
 
 
