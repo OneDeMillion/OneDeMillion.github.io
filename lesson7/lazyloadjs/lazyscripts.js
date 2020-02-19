@@ -4,8 +4,8 @@ const imagesToLoad = document.querySelectorAll("img[data-src]");
 //img options are set - threshold refers to when visible in viewport, and
 //rootMargin is when visible in page
 const imgOptions = {
-    threshold: "1",
-    rootMargin: "0px 0px -300px 0px"
+    threshold: "0",
+    rootMargin: "0px 0px 50px 0px"
 };
 
 //loadImages funct moves the data-src to src
