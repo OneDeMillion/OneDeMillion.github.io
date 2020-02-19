@@ -1,11 +1,10 @@
 //this const var gets all of the imgs with data-src attrib
 const imagesToLoad = document.querySelectorAll("img[data-src]");
 
-
-const imgOptions={
-    threshold: 0;
-    rootMargin: "0px 0px 50px 0px";
-}
+const imgOptions = {
+    threshold: "0",
+    rootMargin: "0px 0px 50px 0px"
+};
 
 //loadImages funct moves the data-src to src
 const loadImages = (image) => {
@@ -26,7 +25,7 @@ if('IntersectionObserver' in Window) {
             }
         });
     }, imgOptions);
-    
+
     imagesToLoad.forEach((img)=> {
         observer.observe(img);
     });
