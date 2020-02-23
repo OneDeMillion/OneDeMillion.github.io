@@ -35,5 +35,30 @@ h1 {
     flex: 1 1 100%;
 }
 
+/*-- HERO and WEATHER SUMMARY - increase size --*/
+
+.heroDiv {
+    width: 70%;
+}
+
+.weatherSummary {
+    line-height: 1.5;
+    padding: 1rem;
+}
+
+.summaryGrid {
+    font-size: 15px;
+}
+
+/*-- 5 day FORECAST - increase lower margin --*/
+.forecast {
+    margin-bottom: 30px;
+}
+
+/*--ARTICLE - reduce article width size--*/
+div.newsArticle {
+    width: 70%;
+    margin: 0 auto;
+}
 
 }

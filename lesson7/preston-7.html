@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sunblink Forecast</title>
+    <meta
+      name="description"
+      content="Weather Forecast site -  Weather or not - it will be a good day"
+    />
+    <link rel="shortcut icon" href="images/sunblink-favicon.ico">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+  </head>
+
+  <body>
+    <!--BANNER-->
+    <div id="pancakes">
+      Saturday = Preston Pancakes in the Park!<br />
+      9am Saturday at the city park pavillion
+    </div>
+
+    <!--HEADER-->
+    <header>
+      <div class="header-logo">
+        <a href="#">
+          <img src="images/Sunblink-logo-238x212rsz.png" alt="Sunblink logo" />
+        </a>
+      </div>
+      <div class="header-text">
+        <h1>Sunblink Forecast</h1>
+        <div class="motto">Weather or Not ...... Today Will Be Amazing!</div>
+      </div>
+    </header>
+
+    <!--MENU-->
+    <ul class="primaryNav clearfix">
+      <li><a class="menuButton">&#9776; Menu</a></li>
+      <li><a href="#">Home</a></li>
+      <li><a class="active" href="preston-7.html">Preston</a></li>
+      <li><a href="#">Soda Springs</a></li>
+      <li><a href="#">Fish Haven</a></li>
+      <li><a href="#">Storm Center</a></li>
+      <li><a href="gallery-7.html">Gallery</a></li>
+    </ul>
+
+    <!-- MAIN -->
+    <main>
+      <h2>Preston Idaho</h2>
+
+      <!--HERO AND WEATHER SUMMARY-->
+      <!--image optimization using art direction-->
+      <div class="heroDiv">
+        <picture>
+          <source 
+            media="(min-width:59em)"
+            srcset="images/hero-Preston-Pasture-800w.jpg"
+          />
+          <source
+            media="(min-width:33em"
+            srcset="images/hero-Preston-Pasture-500w.jpg"
+          />
+          <source
+            media="(min-width:10em)"
+            srcset="images/hero-Preston-Pasture-250w.jpg"
+          />
+          <img
+            src="images/hero-Preston-Pasture-800w.jpg"
+            alt="Scene of Preston countryside with pasture and white horses"
+          />
+        </picture>
+
+        <section class="weatherSummary">
+          <h3>Weather Summary</h3>
+          <div class="summaryGrid">
+            <div class="label">Currently:</div>
+            <div class="weathSumm current">Rainy</div>
+            <div class="label">High:</div>
+            <div class="weathSumm"><span id="highTemp">54</span>&#176;F</div>
+            <div class="label">Wind Chill:</div>
+            <div class="weathSumm"><span id="windChill"></span></div>
+            <div class="label">Humidity:</div>
+            <div class="weathSumm"><span id="humidity">95</span>%</div>
+            <div class="label">Wind Speed:</div>
+            <div class="weathSumm"><span id="windSpd">12</span>mph</div>
+          </div>
+        </section>
+      </div>
+
+      <!--5 DAY FORECAST-->
+      <div class="forecast">
+        <h3>5 Day Forecast</h3>
+        <div class="flex">
+          <div class="col">
+            <span class="fivelabel">Wed</span>
+            <img src="images/snow_cloud.png" alt="cloud with snowflake" />
+            <span class="data">35 &#176;F</span>
+          </div>
+          <div class="col">
+            <span class="fivelabel">Thurs</span>
+            <img src="images/snowflake.png" alt="snowflake" />
+            <span class="data">36 &#176;F</span>
+          </div>
+          <div class="col">
+            <span class="fivelabel">Fri</span>
+            <img src="images/snowflake.png" alt="snowflake" />
+            <span class="data">35 &#176;F</span>
+          </div>
+          <div class="col">
+            <span class="fivelabel">Sat</span>
+            <img
+              src="images/thermometer_cold.png"
+              alt="thermoter showing cold temps"
+            />
+            <span class="data">36 &#176;F</span>
+          </div>
+          <div class="col">
+            <span class="fivelabel">Sun</span>
+            <img
+              src="images/snow_sun_cloud.png"
+              alt="clouds with sun shining and snowflakes"
+            />
+            <span class="data">33 &#176;F</span>
+          </div>
+        </div>
+      </div>
+
+      <!--ARTICLE-->
+      <div class="newsArticle">
+        <img
+          class="newsArticleImg"
+          src="images/snowball-fight-350px.jpg"
+          alt="man and woman having a snowball fight"
+        />
+        <h3 class="newsArticleH3">Tickets for Snowballs!</h3>
+        <h5 class="newsArticleH5">by Kim DeMille</h5>
+        <p>
+          One of the first images that springs to mind when we start seeing
+          snowflakes falling from the sky is snowball fights. Many of us have
+          very fond memories of carefully molding ball after ball into shape,
+          and piling them high, ready to wage war in the age-old duals of the
+          white flakes. However, did you know that there are city ordinances
+          regarding snowball fights? If you don't follow city code you could
+          find yourself with a ticket next time you run out and take battle with
+          your friends at the park with your snowball maker in hand? Don't
+          worry! We've got the scoop on what to do and not do to follow the
+          rules and still have all the fun that snow days have to offer.
+        </p>
+        <p>
+          Tucked away in Preston municipal ordinances, right between two laws
+          regarding the use of firearms in the city, there's a line about
+          snowballs. Specifically, you can't throw them while on city
+          property--including sidewalks, streets, parks and schools. "No person
+          shall throw or shoot any object, arrow, stone, snowball or other
+          missile or projectile, by hand or by any other means, at any other
+          person or at, in or into any building, street, sidewalk, alley,
+          highway, park, playground or other public place within the city,"
+        </p>
+        <p>
+          As Preston resident and fourth grader Jenny Gump put it, "that's a
+          little strange".
+        </p>
+      </div>
+
+      <!--MAP AND CONTACT BOX-->
+      <div class="contactBox1">
+        <div class="coName">
+          <span><strong>Sunblink Forecast</strong></span>
+        </div>
+        <span class="address">&#128205;</span>
+        <div class="adds">
+          30 N 1st E<br />
+          Preston, ID 83263
+        </div>
+        <span class="mobile">&#9742;</span>
+        <div class="tel">999.999.9999</div>
+        <span class="envelope">&#9993;</span>
+        <div class="email"><a href="../">www.sunblink.today.com</a></div>
+        <div class="smIcons">
+          <img src="images/facebook.png" alt="facebook icon" />
+          <img src="images/twitter.png" alt="twitter icon" />
+          <img src="images/pinterest.png" alt="pinterest icon" />
+          <img src="images/whatsapp.png" alt="whatsapp icon" />
+        </div>
+        <div class="contactMap">
+          <iframe
+            title="Preston, ID map"
+            src="images/map-Preston-300px.jpg"
+          ></iframe>
+        </div>
+      </div>
+    </main>
+
+    <!--FOOTER-->
+    <footer>
+      <p>
+        &copy; <span id="currentYear"></span> Sunblink Forecast | Attributions |
+        Kim DeMille
+      </p>
+      <p><span id="todayDate"></span></p>
+    </footer>
+
+    <!--JAVASCRIPT-->
+    <script></script>
+    <script src="js/toggleMenu.js"></script>
+    <script src="js/stringDate.js"></script>
+    <script src="js/banner.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({
+        google: {
+          families: ["Rammetto One", "Open Sans"]
+        }
+      });
+    </script>
+  </body>
+</html>
