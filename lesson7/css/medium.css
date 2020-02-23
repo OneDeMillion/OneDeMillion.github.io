@@ -173,14 +173,14 @@ div.smIcons img {
 
 /* ----------------------GALLERY PAGE------------------------------------------------ */
 
-galleryContain {
+.galleryContain {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(6,1fr);  
   }
 
-figure {
-
-}
-
+  figcaption {
+    padding: 0px 10px 10px;
+    font-size: 14px;
+  }
 
 }
