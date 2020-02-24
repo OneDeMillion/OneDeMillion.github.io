@@ -108,11 +108,7 @@ div.newsArticle {
 
 /*-- CONTACT map - show contact map with contact info--*/
 
-.contactMap {
-    display: block;
-    width: auto;
-    height: auto;
-}
+
 
 .contactBox1 {
     grid-template-columns: auto 20px auto;
@@ -158,10 +154,11 @@ div.smIcons img {
 
 
 .contactMap {
-    width: 98%;
+    width: 100%;
     height: auto;
     grid-column: 1 / 2;
     grid-row: 1 / span 5;
+    display: block;
 }
 
 /*-- FOOTER --*/
