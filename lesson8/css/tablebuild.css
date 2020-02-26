@@ -19,7 +19,12 @@ table {
     box-shadow:  10px 10px 10px rgb(98, 140, 166, 0.8);
 }
 
-thead {
+tr th {
+    font-size: 22px;
+    font-weight: 900;
+}
+
+thead th{
     background-color: #7fb9c2;
     font-size: 36px;
     color: black;
@@ -49,7 +54,7 @@ tfoot {
     font-size: 14px;
 }
 
-.teal {
+th, .teal {
     background-color: #628ca6;
     color: white;
     font-size: 20px;
