@@ -14,7 +14,6 @@ table {
     font-family: 'Ubuntu', san-serif;
     border-collapse: collapse;
     margin: 50px auto;
-    width: 350px;
     text-align: center;
     box-shadow:  10px 10px 10px rgb(98, 140, 166, 0.8);
 }
@@ -31,7 +30,7 @@ thead th{
 }
 
 th, td {
-    padding: 8px 4px;
+    padding: 8px;
 }
 
 tbody {
