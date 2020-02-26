@@ -1,12 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
 body {
-    font-family: Ubuntu, san-serif;
+    margin: 0 auto;
+    font-size: 20px;
 }
 
 table {
-
+    font-family: 'Ubuntu', san-serif;
+    border-collapse: collapse;
+    margin: 50px auto;
+    width: 400px;
+    text-align: center;
+    box-shadow:  10px 10px 10px rgb(98, 140, 166, 0.8);
 }
 
-thead,
+thead {
+    background-color: #7fb9c2;
+    font-size: 36px;
+    color: black;
+}
+
+th, td {
+    padding: 8px;
+}
+
+tbody {
+    background-color: #e7f0ed;
+}
+
+table, thead, td {
+    border: 1px solid #afaeae;
+}
+
+
+
+tr:nth-child(even) {
+    background-color: #e7ffed;
+}
+
+
 tfoot {
-    background-color:#7fb9c2;
+    background-color: #7fb9c2;
+    font-size: 14px;
 }
+
+.teal {
+    background-color: #628ca6;
+    color: white;
+    font-size: 20px;
+}
+
