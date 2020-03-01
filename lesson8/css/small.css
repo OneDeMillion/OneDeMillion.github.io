@@ -402,6 +402,20 @@ form label.top input:required:valid {
 }
 
 
+/*-------------------------------THANKS PAGE--------------------------------------------------*/
 
+main.thanks {
+  margin: 0 auto;
+  max-width: 20rem;
+}
 
+h3.thanks {
+  font-family: "Rammetto One", Cursive;
+  margin-left: 1rem;
+}
 
+p.thanks {
+  font-family: "Open Sans", sans-serif;
+  padding: 1rem; 
+  line-height: 1.5;
+}
