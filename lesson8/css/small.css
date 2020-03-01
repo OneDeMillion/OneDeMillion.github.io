@@ -308,25 +308,33 @@ figcaption {
 
 /*-------------------------STORM CENTER PAGE----------------------------------------*/
 
-h3.stormFormName {
-  margin: 1rem 3rem;
-}
 
 main.stormPage {
-  margin: 0;
-  background-image: url(images/stormCenter-1280res.jpg);
-  height: 100%;
+  margin: -1.25rem 0 0 0;
+  background-image: url("/lesson8/images/stormCenter-1024res.jpg");
+  width: 100%;
+  height: auto;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  backgrond-color: orange;
+}
+
+main.stormPage h2 {
+  padding: 2rem 1rem 1rem;
+}
+
+h3.stormFormName {
+  margin: 0 1rem;
+  font-family: "Rammetto One", cursive;
+  color: white;
 }
 
 form fieldset {
-  margin: 2rem 0;
+  margin: 2rem .5rem;
   border: 1px solid white;
   border-radius: 15px;
   padding: .5rem 2% .75rem;
+  max-width: 20rem;
 }
 
 form legend {
@@ -338,11 +346,12 @@ form legend {
 form label.top, form div.top{
   display: block;
   padding-top: 1rem;
-  font-size: .8rem;  
+  font-size: .8rem;
+  color: white;
 }
 
 form label.top input, form label.top select, form label.top textarea {
-  ~webkit-appearance: none;
+  -webkit-appearance: none;
   display: block;
   font-size: 1rem;
   border: solid 1px #999;
@@ -352,12 +361,23 @@ form label.top input, form label.top select, form label.top textarea {
   width: 100%;
   max-width: 20rem;
   background-color: rgb(204,255,255,.8);
+  box-shadow: 8px 8px 13px 5px rgba(31,95,148,1); 
+  margin-top: .25rem;
+}
+
+form label.range {
+  box-shadow: none;
 }
 
 form label.sbs {
   display: block;
   padding: .75rem 0;
-  color: #0F2E47;
+  color: white;
+}
+
+form label input.severity {
+  color: white;
+  font-size: .8rem;
 }
 
 form input.submitBtn {
@@ -369,6 +389,8 @@ form input.submitBtn {
   margin: 0 0 2rem 2%;
   width: 96%;
   max-width: 20rem;
+  display: flex;
+  justify-content: center;
 }
 
 form label.top input:required {

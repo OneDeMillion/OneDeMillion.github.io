@@ -161,6 +161,7 @@ div.smIcons img {
     display: block;
 }
 
+
 /*-- FOOTER --*/
     footer {
         font-size: 16px;
@@ -179,5 +180,26 @@ div.smIcons img {
     padding: 0px 10px 10px;
     font-size: 14px;
   }
+
+/* ----------------------STORM PAGE------------------------------------------------ */
+
+h3.stormFormName {
+    margin: 0 3rem -.5rem;
+    }
+
+form fieldset {
+    margin: 2rem;
+    padding: .5rem 2% 1.25rem;
+    }
+
+form legend {
+    margin: 0 2rem;
+    }
+
+form input.submitBtn {
+    margin: 0 0 2rem 2rem;
+
+}
+
 
 }

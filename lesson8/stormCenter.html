@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="css/large.css" />
   </head>
 
-  <body class="stormPage">
+  <body>
     <!--HEADER-->
     <header>
       <div class="header-logo">
@@ -48,7 +48,7 @@
     <!--FORM-->
     
     
-    <h3 class="stormFormName">Storm and Unusual Weather Reporting Form</h3>
+    <h3 class="stormFormName">Storm Reporting Form</h3>
         <form method="get">
             <fieldset>
             <legend>Reporter's Information</legend>
@@ -70,9 +70,12 @@
                         <option value="Thunderstorm">
                         <option value="Tornado">   
                     </datalist></label>
-            <label class="top">Storm Severity <for="severity">
-                <input type="range" id="severity" value="5" min="1" max="10" step="1"
-                    list="tickmarks" name="range">
+            
+            <label class="sbs" for="severity">Storm Severity: &nbsp;&nbsp;&nbsp;
+                        <input type="range" id="severity" value="5" min="1" max="10" step="1" 
+                        list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                        <span id="ratingvalue">5</span>
+                        </label>
                     <datalist class="sbs" id="tickmarks">
                         <option value="0">
                         <option value="1">
@@ -87,7 +90,7 @@
                         <option value="10">
                     </datalist>
             </label>
-            <label class="top" for="Region">Storm Region
+            <label class="top regionSelect" for="Region">Storm Region
                 <Select name="Region">
                 <option value="">Please Select &#9662</option>
                 <option value="prestoon">Preston</option>     
@@ -106,12 +109,43 @@
             </fieldset>
 
             <fieldset>
-                <label class="top" for="comment">Additional Information or Comments
+                <legend>Additional Information</legend>
+                <label class="top" for="comment">Comments
                 <textarea class="top"  name="comment" rows="4" cols="40"> </textarea></label>
             </fieldset>
 
             <input type="submit" value="Report the Storm" class="submitBtn">
         </form>
+
+              <!--MAP AND CONTACT BOX-->
+      <div class="contactBox1">
+        <div class="coName">
+          <span><strong>Sunblink Forecast</strong></span>
+        </div>
+        <span class="address">&#128205;</span>
+        <div class="adds">
+          30 N 1st E<br />
+          Preston, ID 83263
+        </div>
+        <span class="mobile">&#9742;</span>
+        <div class="tel">999.999.9999</div>
+        <span class="envelope">&#9993;</span>
+        <div class="email"><a href="../">www.sunblink.today.com</a></div>
+        <div class="smIcons">
+          <img src="images/facebook.png" alt="facebook icon" />
+          <img src="images/twitter.png" alt="twitter icon" />
+          <img src="images/pinterest.png" alt="pinterest icon" />
+          <img src="images/whatsapp.png" alt="whatsapp icon" />
+        </div>
+        <div class="contactMap">
+          <img
+            src="images/map-Preston-300px.jpg"
+            alt="Preston Idaho Map"
+          />
+        </div>
+      </div>
+    </main>
+
 
     </main>
 

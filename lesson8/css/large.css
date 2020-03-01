@@ -82,4 +82,22 @@ div.newsArticle {
       
   }
 
+/*------------------------STORM PAGE--------------------------------------------------------*/
+
+
+form fieldset {
+    margin: 0 auto;
+    max-width: 20rem;
+}
+
+h3.stormFormName {
+    margin: 0 auto 1rem;
+    max-width: 20rem;
+}
+
+form input.submitBtn {
+    margin: 1rem auto 2rem;
+    max-width: 20rem;
+}
+
 }
