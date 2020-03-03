@@ -339,6 +339,7 @@ form fieldset {
 
 form legend {
   color: white;
+  font-weight: 800;
   margin: 0 1rem;
   padding: 0 .5rem;
 }
@@ -348,6 +349,7 @@ form label.top, form div.top{
   padding-top: 1rem;
   font-size: .9rem;
   color: white;
+  font-weight: 800;
 }
 
 form label.top input, form label.top select, form label.top textarea {
@@ -373,7 +375,7 @@ form label.sbs {
   display: block;
   padding: .75rem 0;
   color: white;
-  font-size: .9rem;
+  font-weight: 800;
 }
 
 form label input.severity {
@@ -434,17 +436,39 @@ form label.top input:required:valid {
 /*-------------------------------THANKS PAGE--------------------------------------------------*/
 
 main.thanks {
-  margin: 0 auto;
-  max-width: 20rem;
+  margin: 2rem 0 0 0;
+  background-image: url("/lesson8/images/stormCenter-1024res.jpg");
+  opacity: .8;
+  width: 100%;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h2.thanks {
+  margin-top: 0;
+  padding: 2rem;
 }
 
 h3.thanks {
   font-family: "Rammetto One", Cursive;
-  margin-left: 1rem;
+  margin: 1.25rem auto;
+  justify-content: center;
+  max-width: 40rem;
+
+
 }
 
 p.thanks {
   font-family: "Open Sans", sans-serif;
   padding: 1rem; 
   line-height: 1.5;
+  max-width: 40rem;
+  font-weight: 800;
+  color: black;
+  background-color: rgb(255, 255, 255, .4);
+  font-size: 18px;
+  justify-content: center;
+  margin: 1rem auto 2rem;
 }

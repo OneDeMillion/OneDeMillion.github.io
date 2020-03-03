@@ -1,6 +1,6 @@
-var severity = document.getElementById('severity');
+var slider = document.getElementById('severity');
 var output = document.getElementById("ratingValue");
-output.innerText = severity.value; 
+output.innerHTML = slider.value; 
 
 slider.oninput = function () {
     output.innerHTML = this.value;

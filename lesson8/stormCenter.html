@@ -52,10 +52,10 @@
         <form method="get" action="thanks.html">
             <fieldset>
             <legend>Reporter's Information</legend>
-            <label class="top">Full Name* <input type=text name="fullName" pattern="[A-Za-z0-9 ]{5,}"> </label>
+            <label class="top">Full Name* <input type=text name="fullName" pattern="[A-Za-z0-9 ]{5,}" required> </label>
             <label class="top">Email <input type="email" name="email" placeholder="you@gmail.com"></label>
-            <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551212"required></label>
-            <label class="top">Zip Code <input type="number" name="zip" required></label>
+            <label class="top">Phone* <input type="tel" name="phone" placeholder="123-555-1212"required></label>
+            <label class="top">Zip Code* <input type="number" name="zip" required></label>
             </fieldset>
 
             <fieldset>
@@ -72,12 +72,14 @@
                     </datalist></label>
             
             <label class="sbs" for="severity">Storm Severity: &nbsp;&nbsp;&nbsp;
-                        <input type="range" id="severity" name="severity" value="5" min="1" max="10" step="1" 
+                        <input type="range" id="severity" list="tickmarks" name="severity" class="slider" value="5" min="1" max="10" step="1" 
+                       
+                        }
                         >
-                        <span id="ratingvalue">5</span>
+                        <span id="ratingValue">5</span>
                         </label>
 
-                    <datalist class="sbs">
+                    <datalist class="sbs" id="tickmarks">
                         <option value="0">
                         <option value="1">
                         <option value="2">
