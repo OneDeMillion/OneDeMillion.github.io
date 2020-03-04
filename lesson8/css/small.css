@@ -335,6 +335,7 @@ form fieldset {
   border-radius: 15px;
   padding: .5rem 2% .75rem;
   max-width: 20rem;
+  background-color: rgb(15, 46, 71, .4);
 }
 
 form legend {
@@ -347,7 +348,8 @@ form legend {
 form label.top, form div.top{
   display: block;
   padding-top: 1rem;
-  font-size: .9rem;
+  font-size: 1rem;
+  letter-spacing: .75px;
   color: white;
   font-weight: 800;
 }
