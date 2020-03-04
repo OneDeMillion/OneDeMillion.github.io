@@ -324,12 +324,15 @@ main.stormPage h2 {
 }
 
 h3.stormFormName {
-  margin: 0 1rem;
+  margin: 0 auto;
+  text-align: center;
+  padding: 4px 0;
   font-family: "Open Sans", sans-serif;
   color: white;
   font-weight: 800;
   letter-spacing: 1.1px;
   font-size: 130%;
+  background-color: rgb(15, 46, 71, .4);
 }
 
 form fieldset {
