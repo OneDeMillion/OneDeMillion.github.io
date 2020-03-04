@@ -52,10 +52,11 @@
         <form method="get" action="thanks.html">
             <fieldset>
             <legend>Reporter's Information</legend>
-            <label class="top">Full Name* <input type=text name="fullName" pattern="[A-Za-z ]{5,}" required> </label>
+            <p class="asterisk">  <span style="color:red">*</span> Indicates required field</p>
+            <label class="top">Full Name<span style="color:red">*</span> <input type=text name="fullName" pattern="[A-Za-z ]{5,}" required> </label>
             <label class="top">Email <input type="email" name="email" placeholder="you@gmail.com"></label>
-            <label class="top">Phone* <input type="tel" name="phone" placeholder="123-555-1212"required></label>
-            <label class="top">Zip Code* <input type="number" name="zip" required></label>
+            <label class="top">Phone<span style="color:red">*</span> <input type="tel" name="phone" placeholder="123-555-1212"required></label>
+            <label class="top">Zip Code<span style="color:red">*</span> <input type="number" name="zip" required></label>
             </fieldset>
 
             <fieldset>

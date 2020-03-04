@@ -349,6 +349,14 @@ form legend {
   letter-spacing: .75px;
 }
 
+p.asterisk {
+  font-family: "Open Sans", sans-serif;
+  font-size: .9rem;
+  font-style: italic;
+  color: white;
+  padding: 4px;
+}
+
 form label.top, form div.top{
   display: block;
   padding-top: 1rem;
