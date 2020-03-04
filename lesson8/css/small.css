@@ -327,6 +327,8 @@ h3.stormFormName {
   margin: 0 1rem;
   font-family: "Rammetto One", cursive;
   color: white;
+  letter-spacing: 1px;
+  font-size: 120%;
 }
 
 form fieldset {
@@ -342,7 +344,9 @@ form legend {
   color: white;
   font-weight: 800;
   margin: 0 1rem;
-  padding: 0 .5rem;
+  padding: 8px .5rem 8px;
+  font-size: 90%;
+  letter-spacing: .75px;
 }
 
 form label.top, form div.top{
