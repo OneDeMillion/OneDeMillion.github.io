@@ -325,10 +325,11 @@ main.stormPage h2 {
 
 h3.stormFormName {
   margin: 0 1rem;
-  font-family: "Rammetto One", cursive;
+  font-family: "Open Sans", sans-serif;
   color: white;
+  font-weight: 800;
   letter-spacing: 1px;
-  font-size: 120%;
+  font-size: 130%;
 }
 
 form fieldset {
@@ -354,7 +355,7 @@ p.asterisk {
   font-size: .9rem;
   font-style: italic;
   color: white;
-  padding: 4px;
+  padding: 1px;
 }
 
 form label.top, form div.top{
@@ -377,7 +378,7 @@ form label.top input, form label.top select, form label.top textarea {
   width: 100%;
   max-width: 20rem;
   background-color: rgba(220, 253, 253, 0.8);
-  box-shadow: 8px 8px 13px 5px rgba(31,95,148,1); 
+  box-shadow: 8px 8px 13px 2px rgb(35, 110, 172); 
   margin-top: .25rem;
 }
 

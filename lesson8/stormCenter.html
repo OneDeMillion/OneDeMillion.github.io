@@ -61,17 +61,19 @@
 
             <fieldset>
             <legend>Storm Information</legend>
-            <label class="top">Storm Date <input type="date" name="stormDate"></label>
 
-            <label class="top" for="stormTypes">Storm Type</label>
-                <input name="stormTypes" list="stormType">
-                    <datalist id="stormType">
-                        <option value="Flash Flood">
-                        <option value="Hail">
-                        <option value="Hurricane">
-                        <option value="Thunderstorm">
-                        <option value="Tornado">   
-                    </datalist>
+            
+
+            <label class="top" for="stormTypes">Storm Type
+                    <input name="stormTypes" list="stormTypeList"></label>
+                        <datalist id="stormTypeList">
+                            <option value="Flash Flood">
+                            <option value="Hail">
+                            <option value="Hurricane">
+                            <option value="Thunderstorm">
+                            <option value="Tornado">
+                        </datalist>
+
                 
             
             <label class="sbs" for="severity">Storm Severity: &nbsp;&nbsp;&nbsp;
