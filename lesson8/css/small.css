@@ -417,14 +417,15 @@ form input.submitBtn {
 #severity {
   -webkit-appearance: none;
   width: 100%;
-  max-height: 2px;
-  border-radius: 5px;  
+  height: 3px;
   background: #d3d3d3;
   outline: none;
   opacity: 0.7;
   -webkit-transition: .2s;
   transition: opacity .2s;
 }
+
+
 
 #severity::-webkit-slider-thumb {
   -webkit-appearance: none;
