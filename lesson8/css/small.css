@@ -331,7 +331,7 @@ h3.stormFormName {
   color: white;
   font-weight: 800;
   letter-spacing: 1.1px;
-  font-size: 130%;
+  font-size: 110%;
   background-color: rgb(15, 46, 71, .4);
 }
 
@@ -417,7 +417,7 @@ form input.submitBtn {
 #severity {
   -webkit-appearance: none;
   width: 100%;
-  height: 10px;
+  max-height: 2px;
   border-radius: 5px;  
   background: #d3d3d3;
   outline: none;

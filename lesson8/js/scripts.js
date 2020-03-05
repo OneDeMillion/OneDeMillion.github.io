@@ -1,4 +1,4 @@
-var slider = document.getElementById('severity');
+let slider = document.getElementById('severity');
 var output = document.getElementById("ratingValue");
 output.innerHTML = slider.value; 
 
