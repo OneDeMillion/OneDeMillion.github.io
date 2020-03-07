@@ -333,9 +333,10 @@ h3.stormFormName {
   letter-spacing: 1.1px;
   font-size: 110%;
   background-color: rgb(15, 46, 71, .4);
+  max-width: 20rem;
 }
 
-form fieldset {
+form fieldset, comments {
   margin: 2rem .5rem;
   border: 1px solid white;
   border-radius: 15px;
@@ -370,6 +371,10 @@ form label.top, form div.top{
   font-weight: 800;
 }
 
+div.top {
+  margin-bottom: -10px;
+}
+
 form label.top input, form label.top select, form label.top textarea {
   -webkit-appearance: none;
   display: block;
@@ -378,12 +383,13 @@ form label.top input, form label.top select, form label.top textarea {
   border-radius: 15px;
   padding: .75rem;
   color: #0F2E47;
-  width: 100%;
   max-width: 20rem;
   background-color: rgba(220, 253, 253, 0.8);
   box-shadow: 8px 8px 13px 2px rgb(35, 110, 172); 
   margin-top: .25rem;
 }
+
+
 
 form label.range {
   box-shadow: none;
@@ -394,7 +400,8 @@ form label.sbs {
   padding: .75rem 0;
   color: white;
   font-weight: 800;
-}
+} 
+
 
 form label input.severity {
   color: white;

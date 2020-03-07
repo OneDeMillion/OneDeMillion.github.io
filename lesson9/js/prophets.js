@@ -1,23 +1,37 @@
 const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
-
-
-
 fetch(requestURL)
-  .then(function (response) {
+  .then(function(response) {
+    //console.log(response);
     return response.json();
   })
-
   .then(function (jsonObject) {
+    //console.table(jsonObject);
     const prophets = jsonObject['prophets'];
-
-                                                        //console.table(jsonObject);   temporary checking for valid response and data parsing
-    for (let i = 0; i < prophets.length; i++ ) {
+    prophets.forEach(prophet => {
       let card = document.createElement('section');
       let h2 = document.createElement('h2');
+      let image = document.createElement('img');
+      let dob = document.createElement('p');
+      let bplace = document.createElement('p');
 
-      h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
+  
+      let fullname = `${prophet.name} ${prophet.lastname}`;
 
+      h2.textContent = fullname;
+      image.setAttribute('src',prophet.imageurl);
+      image.setAttribute('alt',fullname);
+      dob.textContent = "Date of Birth: " + `${prophet.birthdate}`;
+      bplace.textContent = "Place of Birth: " + `${prophet.birthplace}`;
+
+      card.appendChild(image);
       card.appendChild(h2);
+      card.appendChild(dob);
+      card.appendChild(bplace);
 
-      document.querySelector('div.cards').appendChild(card);
+      document.querySelector('.cards').appendChild(card);
     });
+  });
+
+
+
+

@@ -1,0 +1,101 @@
+
+header,
+main,
+footer {
+    margin: 0 auto;
+    max-width: 100%;
+    
+}
+
+body {
+    background-image: url("/lesson9/images/prophet-bkgd-1080.png")
+}
+
+main {
+    align-content: center;
+}
+
+div.cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 5px;
+  }
+
+.cards {
+    grid-gap: 10px;
+
+
+}
+
+section {
+    background-color: #555;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;    
+
+}
+
+.card section {
+    margin: 1rem;   
+    padding: 1rem;
+    background-color: yellow;
+    
+}
+
+h1 {
+    margin: 0 auto;
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+
+h2, p {
+    text-align: center;
+    color: white;
+    letter-spacing: 90%;
+}
+
+
+img {
+    -webkit-box-shadow: 2px -1px 19px 10px rgba(252,252,252,0.68);
+    box-shadow: 2px -1px 19px 10px rgba(252,252,252,0.68);
+    padding: 15px;;
+    margin-top: 6px;
+
+}
+
+main section {
+    margin: 0 auto;
+}
+
+footer {
+    border-top: 1px solid #555;
+    color: white;
+    text-align: center;
+    background-color: #777;
+    padding: 8px;
+}
+
+
+
+@media only screen and (min-width: 32.5rem) and (max-width: 62rem) {
+
+
+div.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+}
+
+@media screen and (min-width: 62.5em) {
+
+div.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+
+}
