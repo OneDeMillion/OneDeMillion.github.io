@@ -1,0 +1,500 @@
+* {
+  box-sizing: border-box;
+}
+
+
+/*-- BODY --*/
+body {
+  background-color: #6aace1;
+  font-family: "Open Sans", sans-serif;
+  margin: 0 0;
+  width: 100%;
+}
+
+header,
+nav,
+footer {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+/*-- BANNER --*/
+
+
+#pancakes {
+  background-color: palegoldenrod;
+  text-align: center;
+  font-size: 15px;
+  padding: 18px;
+  font-weight: 700;
+  display:none;
+}
+
+
+/*-- HEADER --*/
+header {
+  background-color: #1f5f94;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.header-logo img {
+  margin-right: 6px;
+  width: 70px;
+  height: auto;
+}
+
+h1,
+h2 {
+  font-family: "Rammetto One", cursive;
+}
+
+h1 {
+  color: #f5d642;
+  margin-bottom: 4px;
+  font-size: 20px;
+}
+
+.motto {
+  color: white;
+  font-size: 10.5px;
+  margin: 0;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+/* MENU */
+.primaryNav {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.primaryNav li:first-child {
+  display: block;
+  border-top: 2px solid rgba(247, 247, 248, 0.2);
+  border-bottom: 2px solid rgba(247, 247, 248, 0.2);
+}
+
+.primaryNav li {
+  display: none;
+}
+
+.primaryNav a {
+  display: block;
+  text-decoration: none;
+  background-color: #f5d642;
+  color: #0f2e47;
+  padding: 15px;  
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.primaryNav a:hover {
+  background-color: #1f5f94;
+  color: white;
+}
+
+.primaryNav a.active:hover {
+  background-color: #548ebd;
+  color: white;
+}
+
+
+.primaryNav a.active {
+  background-color: white;
+  color: blue;
+}
+
+
+.respond li {
+  display: block;
+}
+
+/* HERO and WEATHER SUMMARY */
+.heroDiv {
+  border-radius: 5px;
+  text-align: center;
+  margin: 8px auto;
+  width: 90%;
+  position: relative;
+}
+
+.heroDiv img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.weatherSummary {
+  position: absolute;
+  top: 25px;
+  left: 40px;
+  background: radial-gradient(#eee, #2a80c7);
+  border: 1px solid #000;
+  padding: 0.8rem;
+  box-shadow: 0 0 30px #111;
+  opacity: 0.8;
+  line-height: 1.3;
+}
+
+.summaryGrid{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 15px;
+	font-size: 15px;
+}
+
+.label{
+	text-align: right;
+}      
+
+.weathSumm{
+	text-align: left;
+}
+
+/*--hide 5 Day FORECAST in small.css--*/
+.forecast {
+  display: none;
+}
+
+/*-- ARTICLE - text below image--*/
+div.newsArticle {
+  background-color: white;
+  margin: 8px 5% 20px;
+  padding: 15px;
+  display: block;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.newsArticleImg {
+  width: 100%;
+  height: auto;
+  box-shadow: 0 0 28px #0f2e47;
+}
+
+.newsArticleH3 {
+	color: blue;
+	font-size: 16px;
+}
+
+h5 {
+	color: darkblue;
+}
+
+/*hide contact map in small.css*/
+.contactMap {
+  display: none;
+}
+
+.contactBox1 {
+  display: grid;
+  grid-template-columns: 20px auto;
+  grid-gap: 10px;
+  background-color: rgba(244, 246, 248, 0.4);
+  padding: 20px;
+  font-size: 12px;
+  justify-content: center;
+}
+
+.coName {
+  grid-column: 1 / span 2;
+  color: Black;
+  font-size: 14px;
+}
+
+.address {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+
+div.adds {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.mobile {
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+  color: white;
+}
+
+div.tel {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+}
+
+.envelope {
+  grid-column: 1 / 2;
+  grid-row: 4 / 5;
+  color: white;
+}
+
+.email {
+  grid-column: 2 / 3;
+  grid-row: 4 / 5;
+}
+
+.smIcons {
+  grid-column: 1 / span 2;
+  grid-row: 5 / 6;
+}
+
+div.smIcons img {
+  width: 16px;
+}
+
+
+footer {
+  background-color: white;
+  text-align: center;
+  padding: 10px 0px;
+  font-size: 9px;
+  white-space: normal;
+}
+
+.contactBox1 a {
+  color: purple;
+}
+
+#todayDate {
+  margin: 0;
+  color: blue;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/*--------------------------GALLERY PAGE------------------------*/
+
+.galleryContain {
+  margin: 1rem auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 960px;
+  justify-items: center;
+}
+
+figure {
+  width: 300px;
+  height: auto;
+  margin: 1rem;
+  background-color:white;
+
+}
+
+figure img {
+
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+}
+
+figcaption {
+  padding: 0px 8px 8px;
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+}
+
+/*-------------------------STORM CENTER PAGE----------------------------------------*/
+
+
+main.stormPage {
+  margin: -1.25rem 0 0 0;
+  background-image: url("/lesson8/images/stormCenter-1024res.jpg");
+  width: 100%;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main.stormPage h2 {
+  padding: 2rem 1rem 1rem;
+}
+
+h3.stormFormName {
+  margin: 0 auto;
+  text-align: center;
+  padding: 4px 0;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-weight: 800;
+  letter-spacing: 1.1px;
+  font-size: 110%;
+  background-color: rgb(15, 46, 71, .4);
+  max-width: 20rem;
+}
+
+form fieldset, comments {
+  margin: 2rem .5rem;
+  border: 1px solid white;
+  border-radius: 15px;
+  padding: .5rem 2% .75rem;
+  max-width: 20rem;
+  background-color: rgb(15, 46, 71, .4);
+}
+
+form legend {
+  color: white;
+  font-weight: 800;
+  margin: 0 1rem;
+  padding: 8px .5rem 8px;
+  font-size: 90%;
+  letter-spacing: .75px;
+}
+
+p.asterisk {
+  font-family: "Open Sans", sans-serif;
+  font-size: .9rem;
+  font-style: italic;
+  color: white;
+  padding: 1px;
+}
+
+form label.top, form div.top{
+  display: block;
+  padding-top: 1rem;
+  font-size: 1rem;
+  letter-spacing: .75px;
+  color: white;
+  font-weight: 800;
+}
+
+div.top {
+  margin-bottom: -10px;
+}
+
+form label.top input, form label.top select, form label.top textarea {
+  -webkit-appearance: none;
+  display: block;
+  font-size: .9rem;
+  border: solid 1px #999;
+  border-radius: 15px;
+  padding: .75rem;
+  color: #0F2E47;
+  max-width: 20rem;
+  background-color: rgba(220, 253, 253, 0.8);
+  box-shadow: 8px 8px 13px 2px rgb(35, 110, 172); 
+  margin-top: .25rem;
+}
+
+
+
+form label.range {
+  box-shadow: none;
+}
+
+form label.sbs {
+  display: block;
+  padding: .75rem 0;
+  color: white;
+  font-weight: 800;
+} 
+
+
+form label input.severity {
+  color: white;
+  font-size: .9rem;
+}
+
+form input.submitBtn {
+  border: none;
+  background-color: #1F5F94;
+  color: white;
+  border-radius: 50px;
+  padding: .75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  width: 96%;
+  max-width: 20rem;
+  display: flex;
+  justify-content: center;
+}
+
+#severity {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 3px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+
+
+#severity::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%; 
+  background: red;
+  cursor: pointer;
+}
+
+#severity:hover {
+  opacity: 1; 
+}
+
+
+
+form label.top input:required {
+  border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+  border-left: green solid 6px;
+}
+
+
+/*-------------------------------THANKS PAGE--------------------------------------------------*/
+
+main.thanks {
+  margin: 2rem 0 0 0;
+  background-image: url("/lesson8/images/stormCenter-1024res.jpg");
+  opacity: .8;
+  width: 100%;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h2.thanks {
+  margin-top: 0;
+  padding: 2rem;
+}
+
+h3.thanks {
+  font-family: "Rammetto One", Cursive;
+  margin: 1.25rem auto;
+  justify-content: center;
+  max-width: 40rem;
+
+
+}
+
+p.thanks {
+  font-family: "Open Sans", sans-serif;
+  padding: 1rem; 
+  line-height: 1.5;
+  max-width: 40rem;
+  font-weight: 800;
+  color: black;
+  background-color: rgb(255, 255, 255, .4);
+  font-size: 18px;
+  justify-content: center;
+  margin: 1rem auto 2rem;
+}
