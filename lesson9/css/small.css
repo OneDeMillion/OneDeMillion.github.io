@@ -498,3 +498,35 @@ p.thanks {
   justify-content: center;
   margin: 1rem auto 2rem;
 }
+
+/*--------------CARDS---------------------*/
+
+section {
+  background-color: white;
+  color: #0f2e47;
+  text-align: center;
+  padding: 0 12px 12px;
+  margin: 16px auto;
+  width: 300px; 
+  border: 1px solid #0f2e47;
+}
+
+.cards h3 {
+  color: #1f5f94;
+  font-weight: 800;
+  font-style: italic;
+  margin: .5rem 5%;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 1rem;
+
+}
+
+.cards img {
+  width: 100%;
+  height: auto;
+  padding: 0;
+}

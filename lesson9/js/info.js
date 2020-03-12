@@ -12,9 +12,13 @@ fetch(requestURL)
         
            
         const towns = jsonObject['towns'];
-        
+        const threeTowns=towns.filter(town => town.name ==  "Preston" || town.name == "Soda Springs" || town.name == "Fish Haven");
+       
             
-        towns.forEach(town => {
+        console.log(threeTowns);
+         
+    
+        threeTowns.forEach(town => {
             let card = document.createElement('section');
             let name = document.createElement('h2');
             let slogan = document.createElement('h3');
@@ -23,13 +27,13 @@ fetch(requestURL)
             let rainFall = document.createElement('p');
             let image = document.createElement('img');
 
-            name.textContent = `${town.name}`;
-            slogan.textContent = `${town.motto}`;
-            founded.textContent = "Year Founded: " + `${town.yearFounded}`;
-            popNum.textContent = "Population: " + `${town.currentPopulation}`;
-            rainFall.textContent = "Annual Rainfall: " + `${town.averageRainfall}`;
-            image.setAttribute('src', town.photo);
-            image.setAttribute('alt', town.name);
+            name.textContent = town.name;
+            slogan.textContent = town.motto;
+            founded.textContent = `Year Founded: ${town.yearFounded}`;
+            popNum.textContent = `Population: ${town.currentPopulation}`;
+            rainFall.textContent = `Annual Rainfall: ${town.averageRainfall}`;
+            image.setAttribute('src', `images/${town.photo}`);
+            image.setAttribute('alt', `Photo of ${town.name}`);
 
             card.appendChild(name);
             card.appendChild(slogan);
