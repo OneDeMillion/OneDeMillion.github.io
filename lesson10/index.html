@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home Page for Sunblink Forecast</title>
+    <meta
+      name="description"
+      content="Weather Forecast site -  Weather or not - it will be a good day"
+    />
+    <link rel="shortcut icon" href="images/sunblink-favicon.ico">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    >
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+  </head>
+
+  <body>
+    <!--BANNER-->
+    <div id="pancakes">
+      Saturday = Preston Pancakes in the Park!<br />
+      9am Saturday at the city park pavillion
+    </div>
+
+    <!--HEADER-->
+    <header>
+      <div class="header-logo">
+        <a href="#">
+          <img src="images/Sunblink-logo-238x212rsz.png" alt="Sunblink logo" />
+        </a>
+      </div>
+      <div class="header-text">
+        <h1>Sunblink Forecast</h1>
+        <div class="motto">Weather or Not ...... Today Will Be Amazing!</div>
+      </div>
+    </header>
+
+    <!--MENU-->
+    <ul class="primaryNav clearfix">
+      <li><a class="menuButton">&#9776; Menu</a></li>
+      <li><a class="active" href="./">Home</a></li>
+      <li><a href="preston-10.html">Preston</a></li>
+      <li><a href="#">Soda Springs</a></li>
+      <li><a href="#">Fish Haven</a></li>
+      <li><a href="stormCenter.html">Storm Center</a></li>
+      <li><a href="gallery-10.html">Gallery</a></li>
+    </ul>
+
+    <!-- MAIN -->
+    <main>
+
+        <div class="cards">
+
+        </div>
+
+      <!--MAP AND CONTACT BOX-->
+      <div class="contactBox1">
+        <div class="coName">
+          <span><strong>Sunblink Forecast</strong></span>
+        </div>
+        <span class="address">&#128205;</span>
+        <div class="adds">
+          30 N 1st E<br />
+          Preston, ID 83263
+        </div>
+        <span class="mobile">&#9742;</span>
+        <div class="tel">999.999.9999</div>
+        <span class="envelope">&#9993;</span>
+        <div class="email"><a href="../">www.sunblink.today.com</a></div>
+        <div class="smIcons">
+          <img src="images/facebook.png" alt="facebook icon" />
+          <img src="images/twitter.png" alt="twitter icon" />
+          <img src="images/pinterest.png" alt="pinterest icon" />
+          <img src="images/whatsapp.png" alt="whatsapp icon" />
+        </div>
+        <div class="contactMap">
+          <img
+            src="images/map-Preston-300px.jpg"
+            alt="Preston Idaho Map"
+          />
+        </div>
+      </div>
+    </main>
+
+    <!--FOOTER-->
+    <footer>
+      <p>
+        &copy; <span id="currentYear"></span> Sunblink Forecast | Attributions |
+        Kim DeMille
+      </p>
+      <p><span id="todayDate"></span></p>
+    </footer>
+
+    <!--JAVASCRIPT-->
+    <script src="js/info.js"></script>
+    <script src="js/toggleMenu.js"></script>
+    <script src="js/stringDate.js"></script>
+    <script src="js/banner.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfontload.js"></script>
+  </body>
+</html>

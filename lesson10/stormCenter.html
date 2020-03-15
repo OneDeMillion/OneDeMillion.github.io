@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>StormCenter - Sunblink Forecast</title>
+    <meta
+      name="description"
+      content="Weather Forecast site -  Weather or not - it will be a good day"
+    />
+    <link rel="shortcut icon" href="images/sunblink-favicon.ico">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+  </head>
+
+  <body>
+    <!--HEADER-->
+    <header>
+      <div class="header-logo">
+        <a href="#">
+          <img src="images/Sunblink-logo-238x212rsz.png" alt="Sunblink logo" />
+        </a>
+      </div>
+      <div class="header-text">
+        <h1>Sunblink Forecast</h1>
+        <div class="motto">Weather or Not ...... Today Will Be Amazing!</div>
+      </div>
+    </header>
+
+    <!--MENU-->
+    <ul class="primaryNav respond clearfix">
+      <li><a class="menuButton">&#9776; Menu</a></li>
+      <li><a href="./">Home</a></li>
+      <li><a href="preston-10.html">Preston</a></li>
+      <li><a href="#">Soda Springs</a></li>
+      <li><a href="#">Fish Haven</a></li>
+      <li><a class="active" href="#">Storm Center</a></li>
+      <li><a href="gallery-10.html">Gallery</a></li>
+    </ul>
+
+    <!-- MAIN -->
+    <main class="stormPage">
+      <h2>Storm Center</h2>
+
+    <!--FORM-->
+    
+    
+    <h3 class="stormFormName">STORM REPORTING FORM</h3>
+        <form method="get" action="thanks.html">
+            <fieldset>
+            <legend>Reporter's Information</legend>
+            <p class="asterisk">  <span style="color:red">*</span> Indicates required field</p>
+            <label class="top">Full Name<span style="color:red">*</span> <input type=text name="fullName" pattern="[A-Za-z ]{5,}" required> </label>
+            <label class="top">Email <input type="email" name="email" placeholder="you@gmail.com"></label>
+            <label class="top">Phone<span style="color:red">*</span> <input type="tel" name="phone" placeholder="123-555-1212" required></label>
+            <label class="top">Zip Code<span style="color:red">*</span> <input type="number" name="zip" required></label>
+            </fieldset>
+
+            <fieldset>
+            <legend>Storm Information</legend>
+
+            
+
+            <label class="top" for="stormTypes">Storm Type
+                    <input name="stormTypes" id="stormTypes" list="stormTypeList"><label></label>
+                        <datalist id="stormTypeList">
+                            <option value="Flash Flood">
+                            <option value="Hail">
+                            <option value="Hurricane">
+                            <option value="Thunderstorm">
+                            <option value="Tornado">
+                        </datalist>
+
+                
+            
+            
+
+            <label class="sbs" for="severity">Storm Severity: &nbsp;&nbsp;&nbsp;
+                        <input type="range" id="severity" list="tickmarks" name="severity" class="slider"
+                        value="5" min="1" max="10" step="1">
+                        <span id="ratingValue">5</span></label>
+                    <datalist class="sbs" id="tickmarks">
+                        <option value="0"></option>
+                        <option value="1"></option>
+                        <option value="2"></option>
+                        <option value="3"></option>
+                        <option value="4"></option>
+                        <option value="5"></option>
+                        <option value="6"></option>
+                        <option value="7"></option>
+                        <option value="8"></option>
+                        <option value="9"></option>
+                        <option value="10"></option>
+                    </datalist>
+
+
+
+                    
+            
+            <label class="top regionSelect">Storm Region
+                <Select name="Region">
+                <option value="">Please Select &#9662;</option>
+                <option value="prestoon">Preston</option>     
+                <option value="sodaSprings">Soda Springs</option>
+                <option value="fishHaven">Fish Haven</option>
+                </Select>
+                </label>
+            
+            
+            <div class="top">User In-Danger Level</div>
+            <label class="sbsradio" for="danger1"><input type="radio" id="danger1" name="danger" value="yes" checked>  Yes</label>
+            <label class="sbsradio" for="danger2"><input type="radio" id="danger2" name="danger" value="no">  No</label>
+            <label class="sbsradio" for="danger3"><input type="radio" id="danger3" name="danger" value="maybe">  Maybe</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Additional Information</legend>
+                <label class="top">Comments
+                <textarea class="top"  name="comment" rows="4" cols="40"> </textarea>
+            </label>
+            </fieldset>
+
+            <input type="submit" value="Report the Storm" class="submitBtn">
+        </form>
+
+              <!--MAP AND CONTACT BOX-->
+      <div class="contactBox1">
+        <div class="coName">
+          <span><strong>Sunblink Forecast</strong></span>
+        </div>
+        <span class="address">&#128205;</span>
+        <div class="adds">
+          30 N 1st E<br />
+          Preston, ID 83263
+        </div>
+        <span class="mobile">&#9742;</span>
+        <div class="tel">999.999.9999</div>
+        <span class="envelope">&#9993;</span>
+        <div class="email"><a href="../">www.sunblink.today.com</a></div>
+        <div class="smIcons">
+          <img src="images/facebook.png" alt="facebook icon" />
+          <img src="images/twitter.png" alt="twitter icon" />
+          <img src="images/pinterest.png" alt="pinterest icon" />
+          <img src="images/whatsapp.png" alt="whatsapp icon" />
+        </div>
+        <div class="contactMap">
+          <img
+            src="images/map-Preston-300px.jpg"
+            alt="Preston Idaho Map"
+          />
+        </div>
+      </div>
+
+
+    </main>
+
+    <!--FOOTER-->
+    <footer>
+      <p>
+        &copy; <span id="currentYear"></span> Sunblink Forecast | Attributions |
+        Kim DeMille
+      </p>
+      <p><span id="todayDate"></span></p>
+    </footer>
+
+    <!--JAVASCRIPT-->
+    <script src="js/scripts.js"></script>
+    <script src="js/toggleMenu.js"></script>
+    <script src="js/stringDate.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfontload.js"></script>
+  </body>
+</html>

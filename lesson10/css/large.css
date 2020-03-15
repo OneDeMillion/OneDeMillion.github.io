@@ -1,0 +1,103 @@
+@media only screen and (min-width:60rem) {
+
+
+/*-- HEADER --*/
+
+h1 {
+	font-size: 32px;
+}
+
+.motto{
+    font-size: 15px;
+    white-space: nowrap;
+}
+
+/*-- MENU --*/
+.primaryNav {
+    display: flex;
+    overflow:auto;
+}
+
+.primaryNav li:first-child {
+    display:none;
+}
+
+.primaryNav a{
+    border: none;
+    border-right: 1px solid rgba(0,0,0,0.1);
+    text-align: center;
+    white-space: nowrap;
+    font-size: 16px;
+}
+
+.primaryNav li{
+    display: block;
+    flex: 1 1 100%;
+}
+
+/*-- HERO and WEATHER SUMMARY - increase size --*/
+
+.heroDiv {
+    width: 70%;
+}
+
+.weatherSummary {
+    line-height: 1.5;
+    padding: 1rem;
+}
+
+.summaryGrid {
+    font-size: 15px;
+}
+
+/*-- 5 day FORECAST - increase lower margin --*/
+.forecast {
+    margin-bottom: 30px;
+}
+
+/*--ARTICLE - reduce article width size--*/
+div.newsArticle {
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+/* -----------GALLERY PAGE------------------------------------------------------ */
+
+.galleryContain {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4,1fr);  
+  }
+
+  figure {
+      margin: 1.5rem;
+  }
+
+  figcaption {
+    font-size: 16px;
+  }
+
+  figure:hover {
+      box-shadow: 0 0 60px #333;
+      
+  }
+
+/*------------------------STORM PAGE--------------------------------------------------------*/
+
+
+form fieldset {
+    margin: 0 auto;
+    max-width: 20rem;
+}
+
+h3.stormFormName {
+    margin: 0 auto 1rem;
+    max-width: 20rem;
+}
+
+form input.submitBtn {
+    margin: 1rem auto 2rem;
+    max-width: 20rem;
+}
+
+}
