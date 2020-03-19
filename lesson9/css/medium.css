@@ -218,23 +218,41 @@ main.thanks {
 
 /*--------------CARDS---------------------*/
 
-  
+.cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 
-.section {
+section {
     display: flex;
     flex-wrap: wrap;
-    margin-top: -1em;
-    margin-left: -2em;
+    flex: 1;
+    max-width: 600px;
+    margin: 1rem auto;
+    border: 1px solid blue;
+    background-color: yellow;
 }
 
-.section:not(:first-of-type) {
-    margin-top: 2em;
+
+section:nth-child(odd) {
+	flex-direction: row-reverse;
 }
 
-.section:nth-child(even) {
-    flex-direction: row-reverse;
+section h2 {
+    color: #1f5f94;
+    text-align: center;
 }
-  
+
+section:nth-child(odd) img {
+	grid-column: 2;
+}
+
+img {border:1px solid red; width: 100%; height: auto;}
+section {background-color:rgb(247, 211, 8); color:#333;}
+p {padding: .25rem;}
+
+
 
 
 
