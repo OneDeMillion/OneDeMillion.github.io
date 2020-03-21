@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fish Haven Idaho Weather Forecast - Sunblink Forecast</title>
+    <meta
+      name="description"
+      content="Weather Forecast site for Fish Haven Idaho -  Weather or not - it will be a good day"
+    />
+    <link rel="shortcut icon" href="images/sunblink-favicon.ico">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    >
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+  </head>
+
+  <body>
+    <!--BANNER-->
+    <div id="pancakes">
+      Saturday = Preston Pancakes in the Park!<br />
+      9am Saturday at the city park pavillion
+    </div>
+
+    <!--HEADER-->
+    <header>
+      <div class="header-logo">
+        <a href="#">
+          <img src="images/Sunblink-logo-238x212rsz.png" alt="Sunblink logo" />
+        </a>
+      </div>
+      <div class="header-text">
+        <h1>Sunblink Forecast</h1>
+        <div class="motto">Weather or Not ...... Today Will Be Amazing!</div>
+      </div>
+    </header>
+
+    <!--MENU-->
+    <ul class="primaryNav clearfix">
+      <li><a class="menuButton">&#9776; Menu</a></li>
+      <li><a href="./">Home</a></li>
+      <li><a href="preston.html">Preston</a></li>
+      <li><a href="sodaSprings.html">Soda Springs</a></li>
+      <li><a class="active" href="fishHaven.html">Fish Haven</a></li>
+      <li><a href="stormCenter.html">Storm Center</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+    </ul>
+
+    <!-- MAIN -->
+    <main>
+      <h2>Fish Haven Idaho</h2>
+
+      <!--HERO AND WEATHER SUMMARY-->
+      <!--image optimization using art direction-->
+      <div class="heroDiv">
+        <picture>
+          <source 
+            media="(min-width:59em)"
+            srcset="images/fishHaven-800w.jpg"
+          />
+          <source
+            media="(min-width:33em"
+            srcset="images/fishHaven-500w.jpg"
+          />
+          <source
+            media="(min-width:10em)"
+            srcset="images/fishHaven-250w.jpg"
+          />
+          <img
+            src="images/fishHaven-800w.jpg"
+            alt="Scene of Preston countryside with pasture and white horses"
+          />
+        </picture>
+
+        <section class="weatherSummary">
+          <h3>Weather Summary</h3>
+          <div class="summaryGrid">
+            <div class="label">Currently:</div>
+            <div class="weathSumm current"><span id="condition"></span></div>
+            <div class="label">High:</div>
+            <div class="weathSumm"><span id="highTemp"></span>&#176;F</div>
+            <div class="label">Wind Chill:</div>
+            <div class="weathSumm"><span id="windChill"></span>&#176;F</div>
+            <div class="label">Humidity:</div>
+            <div class="weathSumm"><span id="humidity"></span>%</div>
+            <div class="label">Wind Speed:</div>
+            <div class="weathSumm"><span id="windSpd"></span>mph</div>
+          </div>
+        </section>
+      </div>
+
+      <!--5 DAY FORECAST-->
+      <div class="forecast">
+        <h3>5 Day Forecast</h3>
+        <div class="flex">
+          <div class="col">
+            <span class="fivelabel" id="fiveday1"></span>
+            <img id="icon1" src="" alt="" />
+            <span class="data" id="forecast1"></span>
+          </div>
+          <div class="col">
+            <span class="fivelabel" id="fiveday2"></span>
+            <img id="icon2" src="" alt="" />
+            <span class="data" id="forecast2"></span>
+          </div>
+          <div class="col">
+            <span class="fivelabel" id="fiveday3"></span>
+            <img id="icon3" src="" alt="" />
+            <span class="data" id="forecast3"></span>
+          </div>
+          <div class="col">
+            <span class="fivelabel" id="fiveday4"></span>
+            <img
+              id="icon4" src=""
+              alt=""
+            />
+            <span class="data" id="forecast4"></span>
+          </div>
+          <div class="col">
+            <span class="fivelabel" id="fiveday5"></span>
+            <img
+              id="icon5" src=""
+              alt=""
+            />
+            <span class="data" id="forecast5"></span>
+          </div>
+        </div>
+      </div>
+
+      <!--ARTICLE-->
+      <div class="newsArticle">
+        <img
+          class="newsArticleImg"
+          src="images/fishHaven-wildlifeRefuge-280px.jpg"
+          alt="side profile of bird with yellow eye"
+        />
+        <h3 class="newsArticleH3">Bear Lake Wildlife Refuge - Fresh air and Social Distancing</h3>
+        <h5 class="newsArticleH5">by Kim DeMille</h5>
+        <p>
+            NOTE: During the current public health emergency, whenever possible,
+             outdoor recreation sites at national wildlife refuges and national 
+             fish hatcheries will remain open to the public. Visitor Centers 
+             and other facilities, however, may be closed. Scheduled events 
+             may be cancelled. Please follow public health guidelines and avoid 
+             congregating
+        </p>
+        <p>
+            Need a break from being in the house all the time in the current health crisis. 
+            Well, Bear Lake Wildlife Refuge provides the opportunity for you to get some 
+            much needed fresh air, while still maintaining that necessary social distance.
+
+            Bear Lake refuge was established in 1968 to protect and manage habitat for 
+            waterfowl and other migratory birds. Located seven miles south of Montpelier, 
+            the refuge encompasses 18,000 acres of cattail marsh, open water, and flooded 
+            meadows that are managed by the U.S. Fish and Wildlife Service. The refuge 
+            provides valuable habitat for waterfowl and colonial nesting water birds. 
+            Portions of the refuge include scattered grasslands and brush-covered mountain 
+            slopes. 
+        </p>
+        <p>
+            Plan your visit according to the season and time of day. Wildlife is 
+            generally more active in mornings and early evenings than in the afternoon.
+            Spring, summer and fall are good times to take advantage of the Refuge’s 
+            excellent viewing opportunities. The months of May and June are especially 
+            prime times to see a lot of wildlife activity including young Canada goose 
+            goslings scurrying to follow their mothers.
+        </p>
+        <p>
+            Often the best bet is to drive along the Wildlife Observation Route around 
+            the Salt Meadow Unit; there you should see a variety of waterfowl, waterbirds 
+            and shorebirds. You may hike on all refuge roads that are open to vehicle travel. 
+            Driving the roads that encircle the refuge provides broad vistas of habitat and 
+            good chances to see wildlife. 
+        </p>
+        <p>    
+            Your car is an excellent observation and photographic blind. Staying in your 
+            car will often avoid scaring wildlife and provide you with better viewing 
+            opportunities. Use binoculars and spotting scopes to bring animals “closer” to you without 
+            disturbing them.
+        </p>
+      </div>
+
+      <!--MAP AND CONTACT BOX-->
+      <div class="contactBox1">
+        <div class="coName">
+          <span><strong>Sunblink Forecast</strong></span>
+        </div>
+        <span class="address">&#128205;</span>
+        <div class="adds">
+          30 N 1st E<br />
+          Preston, ID 83263
+        </div>
+        <span class="mobile">&#9742;</span>
+        <div class="tel">999.999.9999</div>
+        <span class="envelope">&#9993;</span>
+        <div class="email"><a href="../">www.sunblink.today.com</a></div>
+        <div class="smIcons">
+          <img src="images/facebook.png" alt="facebook icon" />
+          <img src="images/twitter.png" alt="twitter icon" />
+          <img src="images/pinterest.png" alt="pinterest icon" />
+          <img src="images/whatsapp.png" alt="whatsapp icon" />
+        </div>
+        <div class="contactMap">
+          <img
+            src="images/map-Preston-300px.jpg"
+            alt="Preston Idaho Map"
+          />
+        </div>
+      </div>
+    </main>
+
+    <!--FOOTER-->
+    <footer>
+      <p>
+        &copy; <span id="currentYear"></span> Sunblink Forecast | <a href="www.openweathermap.org">www.OpenWeatherMap.org</a> |
+        Kim DeMille
+      </p>
+      <p><span id="todayDate"></span></p>
+    </footer>
+
+    <!--JAVASCRIPT-->
+    <script src="js/toggleMenu.js"></script>
+    <script src="js/stringDate.js"></script>
+    <script src="js/banner.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfontload.js"></script>
+  </body>
+</html>

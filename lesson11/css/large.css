@@ -16,7 +16,7 @@ h1 {
 /*-- HERO and WEATHER SUMMARY - increase size --*/
 
 .heroDiv {
-    width: 70%;
+    max-width: 800px;
 }
 
 .weatherSummary {
