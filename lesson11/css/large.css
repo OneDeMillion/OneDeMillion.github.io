@@ -80,4 +80,37 @@ form input.submitBtn {
     max-width: 20rem;
 }
 
+
+/*------------------------CARDS--HOME PAGE ------------------------------------------*/
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 16px 3rem;
+    grid-gap: 1rem;
+}
+
+.cards section{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
+  }
+
+.cards h3 {
+    margin: .5rem 5%;
+    overflow-wrap: break-word;
+    width: 250px;
+    text-align: center;
+}
+
+section img {
+    max-width: fit-content;
+    margin: 0 auto;
+    grid-row: 1;
+}
+
+section {
+    width: auto;
+}
+
 }
