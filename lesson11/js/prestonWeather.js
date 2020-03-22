@@ -52,6 +52,7 @@ fetch(apiURL2)
       }
     });
 
+  const apiURL3 = ''
 
 
 function windChill(t, s) {
