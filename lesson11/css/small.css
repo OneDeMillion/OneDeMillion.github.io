@@ -376,7 +376,6 @@ div.top {
 }
 
 form label.top input, form label.top select, form label.top textarea {
-  -webkit-appearance: none;
   display: block;
   font-size: .9rem;
   border: solid 1px #999;
@@ -389,6 +388,9 @@ form label.top input, form label.top select, form label.top textarea {
   margin-top: .25rem;
 }
 
+label.top select {
+  -webkit-appearance: none;
+}
 
 
 form label.range {
@@ -402,6 +404,9 @@ form label.sbs {
   font-weight: 800;
 } 
 
+div.sbstop {
+  margin-bottom: 0px;
+}
 
 form label input.severity {
   color: white;
