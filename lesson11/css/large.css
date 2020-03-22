@@ -45,10 +45,12 @@ div.newsArticle {
 .galleryContain {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4,1fr);  
+    max-width: fit-content;
   }
 
   figure {
       margin: 1.5rem;
+      border: 6px solid whitesmoke;
   }
 
   figcaption {
@@ -56,7 +58,7 @@ div.newsArticle {
   }
 
   figure:hover {
-      box-shadow: 0 0 60px #333;
+      box-shadow: 0px 0px 25px 20px whitesmoke;
       
   }
 
