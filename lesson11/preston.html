@@ -57,12 +57,8 @@
       <!--image optimization using art direction-->
       <div class="heroDiv">
         <picture>
-          <source 
-            media="(min-width:59em)"
-            srcset="images/hero-Preston-Pasture-800w.jpg"
-          />
           <source
-            media="(min-width:33em"
+            media = "(max-width:58em"
             srcset="images/hero-Preston-Pasture-500w.jpg"
           />
           <source
@@ -74,6 +70,7 @@
             alt="Scene of Preston countryside with pasture and white horses"
           />
         </picture>
+       
 
         <section class="weatherSummary">
           <h3>Weather Summary</h3>
@@ -222,7 +219,6 @@
     </footer>
 
     <!--JAVASCRIPT-->
-    <script src="js/info.js"></script>
     <script src="js/toggleMenu.js"></script>
     <script src="js/stringDate.js"></script>
     <script src="js/banner.js"></script>
