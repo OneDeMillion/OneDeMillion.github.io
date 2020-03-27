@@ -1,51 +1,47 @@
-const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+const requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
 fetch(requestURL)
-    .then(function(response) {
-        //console.log(response);
-        return response.json();
-    })
+  .then(function(response) {
+    //console.log(response);
+    return response.json();
+  })
 
-    .then(function (jsonObject) {
-        //console.table(jsonObject);
-       
-        
-        
-           
-        const towns = jsonObject['towns'];
-        const threeTowns=towns.filter(town => town.name ==  "Preston" || town.name == "Soda Springs" || town.name == "Fish Haven");
-       
-            
-        console.log(threeTowns);
-         
-    
-        threeTowns.forEach(town => {
-            let card = document.createElement('section');
-            let name = document.createElement('h2');
-            let slogan = document.createElement('h3');
-            let founded = document.createElement('p');
-            let popNum = document.createElement('p');
-            let rainFall = document.createElement('p');
-            let image = document.createElement('img');
+  .then(function(jsonObject) {
+    //console.table(jsonObject);
 
-            name.textContent = town.name;
-            slogan.textContent = town.motto;
-            founded.textContent = `Year Founded: ${town.yearFounded}`;
-            popNum.textContent = `Population: ${town.currentPopulation}`;
-            rainFall.textContent = `Annual Rainfall: ${town.averageRainfall}`;
-            image.setAttribute('src', `images/${town.photo}`);
-            image.setAttribute('alt', `Photo of ${town.name}`);
+    const towns = jsonObject["towns"];
+    const threeTowns = towns.filter(
+      town =>
+        town.name == "Preston" ||
+        town.name == "Soda Springs" ||
+        town.name == "Fish Haven"
+    );
 
-            card.appendChild(name);
-            card.appendChild(slogan);
-            card.appendChild(founded);
-            card.appendChild(popNum);
-            card.appendChild(rainFall);
-            card.appendChild(image);
+    //console.log(threeTowns);
 
-            document.querySelector('.cards').appendChild(card);
-        
-        });
-        
-            
+    threeTowns.forEach(town => {
+      let card = document.createElement("section");
+      let name = document.createElement("h2");
+      let slogan = document.createElement("h3");
+      let founded = document.createElement("p");
+      let popNum = document.createElement("p");
+      let rainFall = document.createElement("p");
+      let image = document.createElement("img");
 
+      name.textContent = town.name;
+      slogan.textContent = town.motto;
+      founded.textContent = `Year Founded: ${town.yearFounded}`;
+      popNum.textContent = `Population: ${town.currentPopulation}`;
+      rainFall.textContent = `Annual Rainfall: ${town.averageRainfall}`;
+      image.setAttribute("src", `images/${town.photo}`);
+      image.setAttribute("alt", `Photo of ${town.name}`);
+
+      card.appendChild(name);
+      card.appendChild(slogan);
+      card.appendChild(founded);
+      card.appendChild(popNum);
+      card.appendChild(rainFall);
+      card.appendChild(image);
+
+      document.querySelector(".cards").appendChild(card);
     });
+  });

@@ -17,6 +17,7 @@ h1 {
 
 .heroDiv {
     max-width: 800px;
+    box-shadow: 0 0 30px #111;
 }
 
 .weatherSummary {
@@ -30,13 +31,19 @@ h1 {
 
 /*-- 5 day FORECAST - increase lower margin --*/
 .forecast {
+    margin-top: 8px;
     margin-bottom: 30px;
+    width: 70%;
+}
+
+span.fivelabel {
+    padding: 12px;
 }
 
 /*--ARTICLE - reduce article width size--*/
 div.newsArticle {
     width: 70%;
-    margin: 0 auto;
+    margin: 24px auto 20px;
 }
 
 
@@ -83,34 +90,42 @@ form input.submitBtn {
 
 /*------------------------CARDS--HOME PAGE ------------------------------------------*/
 
-.cards {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    padding: 16px 3rem;
-    grid-gap: 1rem;
+
+
+
+div.cards {
+    display: flex;
+    flex: row;
+    margin: 2rem 5%;
 }
 
-.cards section{
+div.cards section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 1rem;
-  }
-
-.cards h3 {
-    margin: .5rem 5%;
-    overflow-wrap: break-word;
-    width: 250px;
-    text-align: center;
+    max-width: 350px;
+    padding: 24px;
 }
 
-section img {
-    max-width: fit-content;
+div.cards section h3 {
+    margin: .4rem 5%;
+    overflow-wrap: break-word;
+    text-align: center;
+    height: 56px;    
+}
+
+.cards section:nth-child(even) img{
+    grid-column: 1;
+}
+
+div.cards section img {
+    max-width: 100%;
     margin: 0 auto;
-    grid-row: 1;
 }
 
 section {
     width: auto;
 }
+
 
 }

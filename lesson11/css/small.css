@@ -2,7 +2,6 @@
   box-sizing: border-box;
 }
 
-
 /*-- BODY --*/
 body {
   background-color: #6aace1;
@@ -20,16 +19,14 @@ footer {
 
 /*-- BANNER --*/
 
-
 #pancakes {
   background-color: palegoldenrod;
   text-align: center;
   font-size: 15px;
   padding: 18px;
   font-weight: 700;
-  display:none;
+  display: none;
 }
-
 
 /*-- HEADER --*/
 header {
@@ -90,7 +87,7 @@ h2 {
   text-decoration: none;
   background-color: #f5d642;
   color: #0f2e47;
-  padding: 15px;  
+  padding: 15px;
   border-top: 1px solid rgba(0, 0, 0, 0.15);
 }
 
@@ -104,12 +101,10 @@ h2 {
   color: white;
 }
 
-
 .primaryNav a.active {
   background-color: white;
   color: blue;
 }
-
 
 .respond li {
   display: block;
@@ -142,19 +137,19 @@ h2 {
   line-height: 1.3;
 }
 
-.summaryGrid{
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-column-gap: 15px;
-	font-size: 15px;
+.summaryGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 15px;
+  font-size: 15px;
 }
 
-.label{
-	text-align: right;
-}      
+.label {
+  text-align: right;
+}
 
-.weathSumm{
-	text-align: left;
+.weathSumm {
+  text-align: left;
 }
 
 /*--hide 5 Day FORECAST in small.css--*/
@@ -165,7 +160,7 @@ h2 {
 /*-- ARTICLE - text below image--*/
 div.newsArticle {
   background-color: white;
-  margin: 8px 5% 20px;
+  margin: 24px 5% 20px;
   padding: 15px;
   display: block;
   font-size: 12px;
@@ -179,12 +174,12 @@ div.newsArticle {
 }
 
 .newsArticleH3 {
-	color: blue;
-	font-size: 16px;
+  color: blue;
+  font-size: 16px;
 }
 
 h4 {
-	color: darkblue;
+  color: darkblue;
 }
 
 /*hide contact map in small.css*/
@@ -249,7 +244,6 @@ div.smIcons img {
   width: 16px;
 }
 
-
 footer {
   background-color: white;
   text-align: center;
@@ -274,7 +268,6 @@ footer {
   clear: both;
 }
 
-
 /*--------------------------GALLERY PAGE------------------------*/
 
 .galleryContain {
@@ -289,25 +282,22 @@ figure {
   width: 300px;
   height: auto;
   margin: 1rem;
-  background-color:white;
-
+  background-color: white;
 }
 
 figure img {
-
   width: 100%;
   height: 190px;
   object-fit: cover;
 }
 
 figcaption {
-  padding: 0px 8px 8px;
+  padding: 8px;
   font-size: 12px;
   font-family: "Open Sans", sans-serif;
 }
 
 /*-------------------------STORM CENTER PAGE----------------------------------------*/
-
 
 main.stormPage {
   margin: -1.25rem 0 0 0;
@@ -332,41 +322,43 @@ h3.stormFormName {
   font-weight: 800;
   letter-spacing: 1.1px;
   font-size: 110%;
-  background-color: rgb(15, 46, 71, .4);
+  background-color: rgb(15, 46, 71, 0.4);
   max-width: 20rem;
 }
 
-form fieldset, comments {
-  margin: 2rem .5rem;
+form fieldset,
+comments {
+  margin: 2rem 0.5rem;
   border: 1px solid white;
   border-radius: 15px;
-  padding: .5rem 2% .75rem;
+  padding: 0.5rem 2% 0.75rem;
   max-width: 20rem;
-  background-color: rgb(15, 46, 71, .4);
+  background-color: rgb(15, 46, 71, 0.4);
 }
 
 form legend {
   color: white;
   font-weight: 800;
   margin: 0 1rem;
-  padding: 8px .5rem 8px;
+  padding: 8px 0.5rem 8px;
   font-size: 90%;
-  letter-spacing: .75px;
+  letter-spacing: 0.75px;
 }
 
 p.asterisk {
   font-family: "Open Sans", sans-serif;
-  font-size: .9rem;
+  font-size: 0.9rem;
   font-style: italic;
   color: white;
   padding: 1px;
 }
 
-form label.top, form div.top{
+form label.top,
+form div.top {
   display: block;
   padding-top: 1rem;
   font-size: 1rem;
-  letter-spacing: .75px;
+  letter-spacing: 0.75px;
   color: white;
   font-weight: 800;
 }
@@ -375,23 +367,24 @@ div.top {
   margin-bottom: -10px;
 }
 
-form label.top input, form label.top select, form label.top textarea {
+form label.top input,
+form label.top select,
+form label.top textarea {
   display: block;
-  font-size: .9rem;
+  font-size: 0.9rem;
   border: solid 1px #999;
   border-radius: 15px;
-  padding: .75rem;
-  color: #0F2E47;
+  padding: 0.75rem;
+  color: #0f2e47;
   max-width: 20rem;
   background-color: rgba(220, 253, 253, 0.8);
-  box-shadow: 8px 8px 13px 2px rgb(35, 110, 172); 
-  margin-top: .25rem;
+  box-shadow: 8px 8px 13px 2px rgb(35, 110, 172);
+  margin-top: 0.25rem;
 }
 
 label.top select {
   -webkit-appearance: none;
 }
-
 
 form label.range {
   box-shadow: none;
@@ -399,10 +392,10 @@ form label.range {
 
 form label.sbs {
   display: block;
-  padding: .75rem 0;
+  padding: 0.75rem 0;
   color: white;
   font-weight: 800;
-} 
+}
 
 div.sbstop {
   margin-bottom: 0px;
@@ -410,15 +403,15 @@ div.sbstop {
 
 form label input.severity {
   color: white;
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 form input.submitBtn {
   border: none;
-  background-color: #1F5F94;
+  background-color: #1f5f94;
   color: white;
   border-radius: 50px;
-  padding: .75rem 1.5rem;
+  padding: 0.75rem 1.5rem;
   margin: 0 0 2rem 2%;
   width: 96%;
   max-width: 20rem;
@@ -433,27 +426,23 @@ form input.submitBtn {
   background: #d3d3d3;
   outline: none;
   opacity: 0.7;
-  -webkit-transition: .2s;
-  transition: opacity .2s;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
 }
-
-
 
 #severity::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
   width: 20px;
   height: 20px;
-  border-radius: 50%; 
+  border-radius: 50%;
   background: red;
   cursor: pointer;
 }
 
 #severity:hover {
-  opacity: 1; 
+  opacity: 1;
 }
-
-
 
 form label.top input:required {
   border-left: red solid 6px;
@@ -463,13 +452,12 @@ form label.top input:required:valid {
   border-left: green solid 6px;
 }
 
-
 /*-------------------------------THANKS PAGE--------------------------------------------------*/
 
 main.thanks {
   margin: 2rem 0 0 0;
   background-image: url("/lesson8/images/stormCenter-1024res.jpg");
-  opacity: .8;
+  opacity: 0.8;
   width: 100%;
   height: auto;
   background-position: center;
@@ -487,18 +475,16 @@ h3.thanks {
   margin: 1.25rem auto;
   justify-content: center;
   max-width: 40rem;
-
-
 }
 
 p.thanks {
   font-family: "Open Sans", sans-serif;
-  padding: 1rem; 
+  padding: 1rem;
   line-height: 1.5;
   max-width: 40rem;
   font-weight: 800;
   color: black;
-  background-color: rgb(255, 255, 255, .4);
+  background-color: rgb(255, 255, 255, 0.4);
   font-size: 18px;
   justify-content: center;
   margin: 1rem auto 2rem;
@@ -512,7 +498,7 @@ section {
   text-align: center;
   padding: 0 0px 12px;
   margin: 16px auto;
-  width: 300px; 
+  width: 300px;
   border: 1px solid #0f2e47;
 }
 
@@ -520,14 +506,13 @@ section {
   color: #1f5f94;
   font-weight: 800;
   font-style: italic;
-  margin: .5rem 5%;
+  margin: 0.5rem 5%;
 }
 
-.cards section{
+.cards section {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 1rem;
-  
 }
 
 .cards img {
@@ -535,4 +520,20 @@ section {
   height: auto;
   padding: 0;
   border: 3px solid slategray;
+}
+
+/*-----------------EVENTS-------------------*/
+
+
+
+.events section {
+  background-image: linear-gradient(to bottom right, cyan, palegoldenrod);
+  width: 70%;
+  margin: 0 auto;
+}
+
+.events h3 {
+  font-variant-caps: all-small-caps;
+  font-size: 2rem;
+  text-decoration-line: underline;
 }
