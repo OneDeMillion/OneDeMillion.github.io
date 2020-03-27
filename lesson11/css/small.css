@@ -119,6 +119,10 @@ h2 {
   position: relative;
 }
 
+picture {
+  width: auto;
+}
+
 .heroDiv img {
   width: 100%;
   height: auto;
@@ -376,7 +380,7 @@ form label.top textarea {
   border-radius: 15px;
   padding: 0.75rem;
   color: #0f2e47;
-  max-width: 20rem;
+  max-width: 40rem;
   background-color: rgba(220, 253, 253, 0.8);
   box-shadow: 8px 8px 13px 2px rgb(35, 110, 172);
   margin-top: 0.25rem;
@@ -523,8 +527,6 @@ section {
 }
 
 /*-----------------EVENTS-------------------*/
-
-
 
 .events section {
   background-image: linear-gradient(to bottom right, cyan, palegoldenrod);

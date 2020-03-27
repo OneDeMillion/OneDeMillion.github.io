@@ -1,63 +1,58 @@
-@media only screen and (min-width:60rem) {
+@media only screen and (min-width: 60rem) {
+  /*-- HEADER --*/
 
+  h1 {
+    font-size: 32px;
+  }
 
-/*-- HEADER --*/
-
-h1 {
-	font-size: 32px;
-}
-
-.motto{
+  .motto {
     font-size: 15px;
     white-space: nowrap;
-}
+  }
 
+  /*-- HERO and WEATHER SUMMARY - increase size --*/
 
-/*-- HERO and WEATHER SUMMARY - increase size --*/
-
-.heroDiv {
+  .heroDiv {
     max-width: 800px;
-    box-shadow: 0 0 30px #111;
-}
+  }
 
-.weatherSummary {
+  .weatherSummary {
     line-height: 1.5;
     padding: 1rem;
-}
+  }
 
-.summaryGrid {
+  .summaryGrid {
     font-size: 15px;
-}
+  }
 
-/*-- 5 day FORECAST - increase lower margin --*/
-.forecast {
+  /*-- 5 day FORECAST - increase lower margin --*/
+  .forecast {
     margin-top: 8px;
     margin-bottom: 30px;
-    width: 70%;
-}
+    width: 90%;
+  }
 
-span.fivelabel {
+  span.fivelabel {
     padding: 12px;
-}
+  }
 
-/*--ARTICLE - reduce article width size--*/
-div.newsArticle {
-    width: 70%;
+  /*--ARTICLE - reduce article width size--*/
+  div.newsArticle {
+    width: 90%;
     margin: 24px auto 20px;
-}
+  }
 
+  /* -----------GALLERY PAGE------------------------------------------------------ */
 
-/* -----------GALLERY PAGE------------------------------------------------------ */
-
-.galleryContain {
+  .galleryContain {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4,1fr);  
+    grid-template-rows: repeat(4, 1fr);
     max-width: fit-content;
   }
 
   figure {
-      margin: 1.5rem;
-      border: 6px solid whitesmoke;
+    margin: 1.5rem;
+    border: 6px solid whitesmoke;
   }
 
   figcaption {
@@ -65,67 +60,60 @@ div.newsArticle {
   }
 
   figure:hover {
-      box-shadow: 0px 0px 25px 20px whitesmoke;
-      
+    box-shadow: 0px 0px 25px 20px whitesmoke;
   }
 
-/*------------------------STORM PAGE--------------------------------------------------------*/
+  /*------------------------STORM PAGE--------------------------------------------------------*/
 
-
-form fieldset {
+  form fieldset {
     margin: 0 auto;
-    max-width: 20rem;
-}
+    max-width: 30rem;
+    padding-left: 5rem;
+    padding-bottom: 2rem;
+  }
 
-h3.stormFormName {
+  h3.stormFormName {
     margin: 0 auto 1rem;
     max-width: 20rem;
-}
+  }
 
-form input.submitBtn {
+  form input.submitBtn {
     margin: 1rem auto 2rem;
     max-width: 20rem;
-}
+  }
 
+  /*------------------------CARDS--HOME PAGE ------------------------------------------*/
 
-/*------------------------CARDS--HOME PAGE ------------------------------------------*/
-
-
-
-
-div.cards {
+  div.cards {
     display: flex;
-    flex: row;
     margin: 2rem 5%;
-}
+  }
 
-div.cards section {
+  div.cards section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 1rem;
     max-width: 350px;
     padding: 24px;
-}
+  }
 
-div.cards section h3 {
-    margin: .4rem 5%;
+  div.cards section h3 {
+    margin: 0.4rem 5%;
     overflow-wrap: break-word;
     text-align: center;
-    height: 56px;    
-}
+    height: 56px;
+  }
 
-.cards section:nth-child(even) img{
+  .cards section:nth-child(even) img {
     grid-column: 1;
-}
+  }
 
-div.cards section img {
+  div.cards section img {
     max-width: 100%;
     margin: 0 auto;
-}
+  }
 
-section {
+  section {
     width: auto;
-}
-
-
+  }
 }
