@@ -280,7 +280,7 @@ li.adventureTypes {
     padding: 10px;
     font-size: 20px;
     width: 40px;
-    height: auto;
+    height: 100%;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
@@ -428,7 +428,7 @@ button.hero-text-guide {
     font-family: Merriweather Sans, Sans-serif;
     border: 2px solid lightgrey;
     display: grid;
-    grid-template-columns: 300px;
+    grid-template-columns: 1fr;
     background: #5c7182;
     padding: 5px;
 }
