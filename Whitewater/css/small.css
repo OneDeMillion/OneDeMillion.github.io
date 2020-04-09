@@ -428,7 +428,7 @@ button.hero-text-guide {
     font-family: Merriweather Sans, Sans-serif;
     border: 2px solid lightgrey;
     display: grid;
-    grid-template-columns: repeat(300px);
+    grid-template-columns: 300px;
     background: #5c7182;
     padding: 5px;
 }
