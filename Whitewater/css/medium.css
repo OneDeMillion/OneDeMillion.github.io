@@ -84,4 +84,42 @@ div.trip-adv {
 
 }
 
+/*riverguide*/
+.guideCard {
+  display: block;
+  margin:  0 auto;
+}
+
+div.cards {
+  display: block;
+  margin: 0 auto;
+  width: 400px
+}
+
+.cards section {
+  width: 400px;
+  margin: 2rem;  
+  box-shadow: 8px 8px 13px 2px #6a6d74;
+}
+
+/*contact*/
+
+.hero-text-contact h1 {
+  font-size: 30px;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.header-logo-img {
+  padding-right: 2rem;
+}
+
+.header-text-contact p {
+  font-size: 22px;
+  right: 30px;
+}
+
+/*RESERVATIONS*/
+
+
 }

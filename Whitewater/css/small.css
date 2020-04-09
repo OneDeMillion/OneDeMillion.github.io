@@ -419,7 +419,7 @@ button.hero-text-guide {
 .guideCard {
     display: flex;
     width: 90%;
-    margin: 2rem 10%;
+    margin: 2rem auto;
 }
 
 .cards section {
@@ -519,10 +519,9 @@ header.contact {
 }
 
 .hero-text-contact {
-  text-align: center;
   position: absolute;
   top: 6%;
-  left: 15%;
+  right: 20%;
   color: white;
   font-family: Merriweather, Times, serif;
   font-size: 30px;
@@ -567,10 +566,11 @@ div.contactForm {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 2rem;
-  margin: 0 10%;
+  margin: 2rem 10%;
   grid-gap: 2rem;
   font-family: Merrisweather Sans, sans-serif;
   color: slategrey;
+  background-color: white;
 }
 
 div.contactForm input:required, textarea:required {
