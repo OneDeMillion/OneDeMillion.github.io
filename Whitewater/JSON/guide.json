@@ -1,0 +1,42 @@
+{
+    "guides": [
+        {
+            "name": "Adam",
+            "photo": "../images/guide1-400px.jpg",
+            "experience": "8 years",
+            "email": "adamrafts@srwhitewater.com",
+            "bio": "Adam not only works as a whitewater rafting guide, but he is truly passionate about rafting in his personal life. He is extremely proud of rafting the Colorado River through the Grand Canyon, AZ a total of 3 times. In his off-time, Adam enjoys playing guitar, reading, and skiing",
+            "certification": [
+                "CPR certified",
+                "Wilderness First Responder",
+                "Swift Water Rescue Course"
+            ]
+        },
+        {
+            "name": "Graham",
+            "photo": "../images/guide2-400px.jpg",
+            "experience": "10 years",
+            "email": "scottygraham@srwhitewater.com",
+            "bio": "Graham has experience in the United States and in Canada. He also serves as a guide trainer. He is an avid mountain climber, hiker, and loves honing his carpentry skills when not exploring nature. He is a favorite with the children, who love his thick scottish broque accent.",
+            "certification": [
+                "CPR certified",
+                "Wilderness First Responder",
+                "National Rafting Rescue Course",
+                "Advanced Wilderness Medicine"
+            ]
+        },
+        {
+            "name": "Connor",
+            "photo": "../images/guide3-400px.jpg",
+            "experience": "3 years",
+            "email": "illbeback@srwhitewater.com",
+            "bio": "Connor grew up on the Salmon River, fell in love at an early age, and has spent many hours adventuring it's white crested waters. He is certified on all of our rivers, quite an accomplishment. Connor's hobbies include anything water-related, but he is also passionate about the area surrounding those waters. He hikes, climbs, camps, and hunts the beautiful area.",
+            "certification": [
+                "Wilderness Medicine",
+                "CPR certified",
+                "Swift Water Rescue Course",
+                "Wilderness First Responder"
+            ]
+        }
+    ]
+}

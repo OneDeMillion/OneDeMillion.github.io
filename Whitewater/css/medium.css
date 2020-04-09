@@ -1,0 +1,52 @@
+@media only screen and (min-width: 32em) {
+/*HEADER*/
+
+hero-text {
+    font-size: 22px;
+}
+
+/*menu*/
+
+
+.primaryNav {
+    display: flex;
+    overflow: auto;
+  }
+
+  .primaryNav a {
+    font-size: 16px;
+    white-space: nowrap;
+    text-align: center;
+  }
+
+  .primaryNav .respond {
+    display: flex;
+  }
+
+  .primaryNav li {
+    flex: 1 1 100%;
+    display: block;
+  }
+
+  .primaryNav li:first-child {
+    display: none;
+  }
+/*sliders*/
+
+  .sliderContainer {
+         position: relative;
+}
+
+.sliderAdventures {
+    font-size: 18px;
+    text-align: center;
+    margin: 16px;
+}
+
+/*riveradventures*/
+
+
+
+
+
+}
