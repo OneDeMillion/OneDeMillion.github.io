@@ -809,11 +809,14 @@ header.book {
   font-size: 30px;
 }
 
+
+
+
 .hero-text-adv span{
   display: none;
 }
 
-h2.header-text-adv {
+.header-text-adv h2{
   text-align: center;
   position: absolute;
   top: 50%;

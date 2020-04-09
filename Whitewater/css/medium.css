@@ -59,5 +59,29 @@ div.contact {
   float: none;
 }
 
+/*RIVER ADVENTURES*/
+
+.hero-text-adv h1{
+  font-size: 30px;
+  float: right;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+.header-logo-adv img {
+  margin: 2rem;
+}
+
+div.trip-advs {
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+}
+
+div.trip-adv {
+  margin: 2rem;
+  box-shadow: 8px 8px 13px 2px #6a6d74;
+
+}
 
 }
