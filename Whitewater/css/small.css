@@ -8,7 +8,7 @@ body, html, header {
   }
 
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/hero-rafting-home-1280w-compressor.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/hero-rafting-home-1280w-compressor.jpg');
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -353,7 +353,7 @@ div.temp {
 
 /*links*/
 .email a:visited {
-      color: #ebab35;
+      color: turquoise;
   }
 
 footer {
