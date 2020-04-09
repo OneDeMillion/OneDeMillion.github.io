@@ -43,10 +43,21 @@ hero-text {
     margin: 16px;
 }
 
-/*riveradventures*/
+/*contact*/
 
+.contactImg{
+  display: none;
+}
 
+div.contact {
+  z-index: 0;
+  position: relative;
+  height: 300px;
+}
 
+.contactInfo {
+  float: none;
+}
 
 
 }

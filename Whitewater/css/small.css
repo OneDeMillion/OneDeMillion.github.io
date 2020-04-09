@@ -311,19 +311,19 @@ li.adventureTypes {
     color: #415837;
   }
   
-div.contact {
+.contact {
     background-color: #415837;
     position: relative;
     z-index: -555;
 }
 
-  div.contactInfo {
+  .contactInfo {
       float: right;
       text-align: center;
       align-content: center;
       width: 500px;
       height: 333px;
-      margin: 0 10%;
+      margin: 0 auto;
       padding: 3rem;
       font-family: Merriweather Sans, sans-serif;
       line-height: 1.4;
@@ -337,12 +337,12 @@ div.contact {
 }
 
 
-div.temp {
+.temp {
     font-family: Merriweather Sans, sans-serif;
     color: white;
-    font-size: 26px;
+    font-size: 18px;
     font-weight: 700;
-    padding: 16px;
+    padding: 14px;
     left: 8px;
     position: relative;
     z-index: 999;
